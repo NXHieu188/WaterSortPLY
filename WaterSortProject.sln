@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{a83213d8-8631-9b55-6627-8a8e6564563f}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{2950133f-f427-4870-cd7d-7acf9c6f8ce4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Luna", "Unity.Luna.csproj", "{4319f1a6-d11b-a09e-7f1d-7c754bba8b6f}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{a83213d8-8631-9b55-6627-8a8e6564563f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{a83213d8-8631-9b55-6627-8a8e6564563f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2950133f-f427-4870-cd7d-7acf9c6f8ce4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2950133f-f427-4870-cd7d-7acf9c6f8ce4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4319f1a6-d11b-a09e-7f1d-7c754bba8b6f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4319f1a6-d11b-a09e-7f1d-7c754bba8b6f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,232 @@
+report@config:load 70.32
+Authorized using stored user info.
+report@account:authorize 93.88
+stderr: 'rm' is not recognized as an internal or external command,
+operable program or batch file.
+
+Exporting assets from Unity..............
+
+[ Stage1 ] Assets exported from Unity and staged for further processing
+report@unity:export 11175.96
+report@config:load 30.22
+Resources:
+{}
+report@assets:stage2 3852.70
+report@assets:stage3 472.11
+[ Stage2 ] Assets postprocessed and bundled successfully
+report@config:unity 0.46
+report@config:load 65.61
+report@config:unity 1.90
+report@code:compose 239.73
+Authorized using stored user info.
+report@account:authorize 6.93
+Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+Build started 2/16/2024 9:58:32 AM.
+
+Project "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" on node 1 (Rebuild target(s)).
+
+CoreClean:
+  Deleting file "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll".
+
+  Deleting file "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.pdb".
+
+  Deleting file "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.dll".
+
+  Deleting file "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll".
+
+  Deleting file "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll".
+
+  Deleting file "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll".
+
+  Deleting file "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\JetBrains.dll".
+
+  Deleting file "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.dll".
+
+  Deleting file "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll".
+
+  Deleting file "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll".
+
+  Deleting file "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dll".
+
+  Deleting file "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll".
+
+  Deleting file "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\TextMeshPro.dll".
+
+  Deleting file "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.dll".
+
+  Deleting file "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UI.dll".
+
+  Deleting file "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UniversalRenderPipeline.dll".
+
+  Deleting file "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.xml".
+
+  Deleting file "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.xml".
+
+  Deleting file "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.xml".
+
+  Deleting file "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.xml".
+
+  Deleting file "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.xml".
+
+  Deleting file "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.xml".
+
+  Deleting file "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.xml".
+
+  Deleting file "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.xml".
+
+  Deleting file "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.AssemblyReference.cache".
+
+  Deleting file "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.CoreCompileInputs.cache".
+
+  Deleting file "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.CopyComplete".
+
+  Deleting file "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.dll".
+
+  Deleting file "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.pdb".
+
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+
+CoreCompile:
+
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Roslyn\csc.exe /noconfig /nowarn:CS0626,1701,1702 /fullpaths /nostdlib+ /errorreport:prompt /warn:4 /define:UNITY_LUNA;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_2021;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2021_3;UNITY_2021_3_15 /highentropyva+ /reference:E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.40-luna\lib\net40\Bridge.dll /reference:E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll /reference:E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll /reference:E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll /reference:E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\packages\com.unity.ide.rider\3.0.0\JetBrains.dll /reference:E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll /reference:E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll /reference:E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll /reference:E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll /reference:E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll /reference:E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.6\TextMeshPro.dll /reference:E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll /reference:E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll /reference:E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll /debug+ /debug:full /optimize- /out:obj\Debug\UnityScriptsCompiler.dll /subsystemversion:6.00 /target:library /warnaserror- /utf8output /langversion:8 Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\GameManager\GameManager1.cs Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\AudioManager.cs Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\AutoDestroy.cs Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\AutoDestructor.cs Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\DefineHelper.cs Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\DoTweenMove.cs Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\DoTweenMoveUI.cs Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\EventDispatcher\EventDispatcher.cs Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\GlobalInstance.cs Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\HelperUtility.cs Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\LookAtCamera.cs Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\LookAtTarget.cs Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\LunaPool\LunaPool.cs Z:\LunaPLY\HC\Wate
+rSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\RotateObject.cs Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\SimplePool.cs Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\Singleton.cs Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\SlidingNumber.cs Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\UpdateSkinnedMesh.cs Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\VectorUlti.cs Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\Plugin\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\Plugin\Demigiant\DOTween\Modules\DOTweenModuleEPOOutline.cs Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\Plugin\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\Plugin\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\Plugin\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\Plugin\Demigiant\DOTween\Modules\DOTweenModuleUI.cs Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\Plugin\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\Plugin\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs Properties/AssemblyInfo.cs Sources/OtherDummyScript.cs "obj\Debug\.NETFramework,Version=v4.7.AssemblyAttributes.cs"
+
+Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\DoTweenMoveUI.cs(9,35): warning CS0169: The field 'DoTweenMoveUI.setLoop' is never used [E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\DoTweenMoveUI.cs(7,38): warning CS0649: Field 'DoTweenMoveUI.targetPos' is never assigned to, and will always have its default value [E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\RotateObject.cs(8,36): warning CS0649: Field 'RotateObject.duration' is never assigned to, and will always have its default value 0 [E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\DoTweenMove.cs(8,36): warning CS0649: Field 'DoTweenMove.duration' is never assigned to, and will always have its default value 0 [E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\DoTweenMoveUI.cs(10,35): warning CS0169: The field 'DoTweenMoveUI.doLocal' is never used [E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\RotateObject.cs(9,36): warning CS0649: Field 'RotateObject.angle' is never assigned to, and will always have its default value 0 [E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\DoTweenMove.cs(7,38): warning CS0649: Field 'DoTweenMove.targetPos' is never assigned to, and will always have its default value [E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\RotateObject.cs(10,36): warning CS0649: Field 'RotateObject.originAngle' is never assigned to, and will always have its default value 0 [E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\DoTweenMove.cs(10,35): warning CS0649: Field 'DoTweenMove.doLocal' is never assigned to, and will always have its default value false [E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\DoTweenMove.cs(9,35): warning CS0649: Field 'DoTweenMove.setLoop' is never assigned to, and will always have its default value false [E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\AutoDestructor.cs(14,42): warning CS0649: Field 'AutoDestructor.typeDestroy' is never assigned to, and will always have its default value [E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\DoTweenMoveUI.cs(8,36): warning CS0649: Field 'DoTweenMoveUI.duration' is never assigned to, and will always have its default value 0 [E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\DoTweenMove.cs(13,17): warning CS0414: The field 'DoTweenMove.flag' is assigned but its value is never used [E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+  CompilerServer: server - server processed compilation - 55d21e3a-158a-4dc5-b7d1-7c78be4240d2
+
+_CopyFilesMarkedCopyLocal:
+  Copying file from "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll" to "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.dll".
+
+  Copying file from "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\packages\com.unity.ide.rider\3.0.0\JetBrains.dll" to "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\JetBrains.dll".
+
+  Copying file from "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll" to "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll".
+
+  Copying file from "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.40-luna\lib\net40\Bridge.dll" to "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.dll".
+
+  Copying file from "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll" to "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll".
+
+  Copying file from "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll" to "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll".
+
+  Copying file from "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll" to "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll".
+
+  Copying file from "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll" to "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll".
+
+  Copying file from "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll" to "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dll".
+
+  Copying file from "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll" to "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll".
+
+  Copying file from "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.6\TextMeshPro.dll" to "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\TextMeshPro.dll".
+
+  Copying file from "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll" to "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.dll".
+
+  Copying file from "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll" to "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UI.dll".
+
+  Copying file from "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll" to "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UniversalRenderPipeline.dll".
+
+  Copying file from "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.40-luna\lib\net40\Bridge.xml" to "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.xml".
+
+  Copying file from "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.xml" to "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.xml".
+
+  Copying file from "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.xml" to "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.xml".
+
+  Copying file from "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.xml" to "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.xml".
+
+  Copying file from "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.xml" to "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.xml".
+
+  Copying file from "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.xml" to "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.xml".
+
+  Copying file from "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.xml" to "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.xml".
+
+  Copying file from "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.xml" to "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.xml".
+
+  Creating "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.CopyComplete" because "AlwaysCreate" was specified.
+
+CopyFilesToOutputDirectory:
+  Copying file from "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.dll" to "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll".
+
+  Scripts -> E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll
+
+  Copying file from "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.pdb" to "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.pdb".
+
+BridgeNetCompilerTask:
+  Bridge started
+
+      To enable detailed logging, configure "logging" in bridge.json.
+
+      https://github.com/bridgedotnet/Bridge/wiki/global-configuration#logging
+
+  Bridge done
+
+Done Building Project "E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" (Rebuild target(s)).
+
+
+
+Build succeeded.
+
+
+
+"E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" (Rebuild target) (1) ->
+(CoreCompile target) -> 
+  Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\DoTweenMoveUI.cs(9,35): warning CS0169: The field 'DoTweenMoveUI.setLoop' is never used [E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\DoTweenMoveUI.cs(7,38): warning CS0649: Field 'DoTweenMoveUI.targetPos' is never assigned to, and will always have its default value [E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+  Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\RotateObject.cs(8,36): warning CS0649: Field 'RotateObject.duration' is never assigned to, and will always have its default value 0 [E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\DoTweenMove.cs(8,36): warning CS0649: Field 'DoTweenMove.duration' is never assigned to, and will always have its default value 0 [E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\DoTweenMoveUI.cs(10,35): warning CS0169: The field 'DoTweenMoveUI.doLocal' is never used [E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\RotateObject.cs(9,36): warning CS0649: Field 'RotateObject.angle' is never assigned to, and will always have its default value 0 [E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\DoTweenMove.cs(7,38): warning CS0649: Field 'DoTweenMove.targetPos' is never assigned to, and will always have its default value [E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\RotateObject.cs(10,36): warning CS0649: Field 'RotateObject.originAngle' is never assigned to, and will always have its default value 0 [E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\DoTweenMove.cs(10,35): warning CS0649: Field 'DoTweenMove.doLocal' is never assigned to, and will always have its default value false [E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\DoTweenMove.cs(9,35): warning CS0649: Field 'DoTweenMove.setLoop' is never assigned to, and will always have its default value false [E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\AutoDestructor.cs(14,42): warning CS0649: Field 'AutoDestructor.typeDestroy' is never assigned to, and will always have its default value [E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\DoTweenMoveUI.cs(8,36): warning CS0649: Field 'DoTweenMoveUI.duration' is never assigned to, and will always have its default value 0 [E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  Z:\LunaPLY\HC\WaterSort\WaterSortProject\Assets\00_WaterSort\Scripts\Utility\DoTweenMove.cs(13,17): warning CS0414: The field 'DoTweenMove.flag' is assigned but its value is never used [E:\LunaDownload\5.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+
+    13 Warning(s)
+    0 Error(s)
+
+
+Time Elapsed 00:00:25.55
+
+Source code compiled successfully!
+Diagnostics gathered successfully
+report@code:build 46873.40
+report@diagnostics:verify 0.64
+report@diagnostics:upload 2308.98
+report@code:stage 16191.05
+[ Stage3 ] Code compiled and bundled successfully.
+report@code:bundle 65698.47
+report@package:stage 3779.14
+[ Stage4 ] Target platform: develop
+[ Stage4 ] Package bundled successfully
+report@assets:stats 0.75
