@@ -9,6 +9,10 @@ public class BottleController : MonoBehaviour
     public SpriteRenderer bottleMaskSR;
     public List<SpriteRenderer> lstWaterSurfaceTop = new List<SpriteRenderer>();
     public List<SpriteRenderer> lstWaterSurface = new List<SpriteRenderer>();
+    
+    public AnimationCurve fillAmountCur;
+    public AnimationCurve scaleAndRotationMultiplierCur;
+    public AnimationCurve rotationSpeedMultipiler;
 
     private void Start()
     {
@@ -17,10 +21,10 @@ public class BottleController : MonoBehaviour
 
     private void Update()
     {
-        // if (Input.GetKeyUp(KeyCode.A))
-        // {
-        //     StartCoroutine(IERotateBottle());
-        // }
+        if (Input.GetKeyUp(KeyCode.A))
+        {
+            StartCoroutine(IERotateBottle());
+        }
     }
 
     void UpdateColor()
@@ -38,7 +42,7 @@ public class BottleController : MonoBehaviour
         SetColorTop(arrColor[arrColor.Length - 1]);
     }
 
-    private float timeRotate = 1.0f;
+    public float timeRotate = 1.0f;
 
     IEnumerator IERotateBottle()
     {
@@ -50,12 +54,42 @@ public class BottleController : MonoBehaviour
             lerpValue = t / timeRotate;
             angleValue = Mathf.Lerp(0.0f, 90.0f, lerpValue);
             transform.eulerAngles = new Vector3(0, 0, angleValue);
-            t += Time.deltaTime;
+
+            bottleMaskSR.material.SetFloat("_SARM", scaleAndRotationMultiplierCur.Evaluate(angleValue));
+            bottleMaskSR.material.SetFloat("_FillAmount", fillAmountCur.Evaluate(angleValue));
+
+            t += Time.deltaTime * rotationSpeedMultipiler.Evaluate(angleValue);
             yield return new WaitForEndOfFrame();
         }
 
         angleValue = 90.0f;
         transform.eulerAngles = new Vector3(0, 0, angleValue);
+        bottleMaskSR.material.SetFloat("_SARM", scaleAndRotationMultiplierCur.Evaluate(angleValue));
+        bottleMaskSR.material.SetFloat("_FillAmount", fillAmountCur.Evaluate(angleValue));
+
+        //StartCoroutine(IERotateBottleBack());
+    }
+
+    IEnumerator IERotateBottleBack()
+    {
+        float t = 0;
+        float lerpValue;
+        float angleValue;
+        while (t < timeRotate)
+        {
+            lerpValue = t / timeRotate;
+            angleValue = Mathf.Lerp(90.0f, 0.0f, lerpValue);
+            transform.eulerAngles = new Vector3(0, 0, angleValue);
+
+            bottleMaskSR.material.SetFloat("_SARM", scaleAndRotationMultiplierCur.Evaluate(angleValue));
+
+            t += Time.deltaTime;
+            yield return new WaitForEndOfFrame();
+        }
+
+        angleValue = 0f;
+        transform.eulerAngles = new Vector3(0, 0, angleValue);
+        bottleMaskSR.material.SetFloat("_SARM", scaleAndRotationMultiplierCur.Evaluate(angleValue));
     }
 
     public void SetColorTop(Color color)

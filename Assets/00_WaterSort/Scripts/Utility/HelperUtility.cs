@@ -642,14 +642,12 @@ public static class HelperUtility
     public static Color GetSurfaceColor(Color color, bool isTop = true)
     {
         float maxComponent = color.maxColorComponent;
-        Debug.Log("First: " + color);
         float r = color.r >= maxComponent ? 1f : color.r + (isTop ? OffsetTopColor : OffsetDoneColor);
         float g = color.g >= maxComponent ? 1f : color.g + (isTop ? OffsetTopColor : OffsetDoneColor);
         float b = color.b >= maxComponent ? 1f : color.b + (isTop ? OffsetTopColor : OffsetDoneColor);
         r = r > 1f ? 1f : r;
         g = g > 1f ? 1f : g;
         b = b > 1f ? 1f : b;
-        Debug.Log("Second: " + color);
         return new Color(r, g, b, color.a);
     }
 }
