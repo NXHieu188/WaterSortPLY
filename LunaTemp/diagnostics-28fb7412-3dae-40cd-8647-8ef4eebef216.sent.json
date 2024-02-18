@@ -1,0 +1,112 @@
+{
+    "BuildID": "28fb7412-3dae-40cd-8647-8ef4eebef216",
+    "Command": "project:build",
+    "ProjectID": "99b4639c3679c3243a0d2947cf59479c",
+    "ProjectStateHash": "4828438b2a9a40c6b121f76baacfc55fdb53b2f3d4459edef83f548ecff30394",
+    "StageCompletedAt": 3,
+    "EarliestFatalError": 0,
+    "StartTime": 1708271565725,
+    "EndTime": 1708271591072,
+    "PlaygroundUserID": 8338,
+    "OperatingSystem": "win32",
+    "UnityPackageID": null,
+    "TargetPlatform": "develop",
+    "UnityVersion": "2021.3.15f1\r",
+    "LunaVersion": "5.5.0",
+    "LogCount": 4,
+    "Logs": [
+        {
+            "LogID": "0ee8bc52-87d1-4203-bc00-a6737c6e2014",
+            "Order": 3,
+            "Timestamp": 1708271591308,
+            "Stage": 3,
+            "ErrorType": 3,
+            "ErrorCode": "LP3007",
+            "Description": "You are not using any custom events",
+            "Details": [
+                "You are not using any custom events. It is recommended to use custom events to have a better understanding of the playable."
+            ],
+            "DescriptionValues": [
+                ""
+            ],
+            "DetailsValues": [
+                ""
+            ],
+            "LogCount": 1,
+            "LinePosition": null,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "8a05f63e-b86c-4ec7-b8e4-6d90d5eb8d7d",
+            "Order": 3,
+            "Timestamp": 1708271591308,
+            "Stage": 3,
+            "ErrorType": 3,
+            "ErrorCode": "LP3011",
+            "Description": "You are not using any LunaPlaygroundFields attributes.",
+            "Details": [
+                "You are not using any LunaPlaygroundFields attributes, it allows you to configure your playable to different concepts to find the best variation, which can drastically improve playable performance on all ad networks."
+            ],
+            "DescriptionValues": null,
+            "DetailsValues": null,
+            "LogCount": 1,
+            "LinePosition": null,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "6b037f4a-144b-4690-b42f-b9a29400ca4c",
+            "Order": 0,
+            "Timestamp": 1708271567639,
+            "Stage": 1,
+            "ErrorType": 0,
+            "ErrorCode": "LP1012",
+            "Description": "Export Error: An item with the same key has already been added. Key: Sprites/Default (UnityEngine.Shader)",
+            "Details": [
+                "Sprites/Default",
+                ""
+            ],
+            "DescriptionValues": [
+                "An item with the same key has already been added. Key: Sprites/Default (UnityEngine.Shader)"
+            ],
+            "DetailsValues": [],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "Resources/unity_builtin_extra\\Sprites/Default",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "aaaeb67c-5838-4fb8-ba5d-3cb02b7d9fe7",
+            "Order": 1,
+            "Timestamp": 1708271572984,
+            "Stage": 1,
+            "ErrorType": 2,
+            "ErrorCode": "LP1016",
+            "Description": "Extensive usage of ParticleSystem Component",
+            "Details": [
+                "There is extensive usage of the ParticleSystem component.\nExcessive usage of any component can be detrimental to performance on lower and in some cases higher end devices, consider reducing the amount the component is used.\nRecommended count: 10, current count 20."
+            ],
+            "DescriptionValues": [
+                "ParticleSystem"
+            ],
+            "DetailsValues": [
+                "ParticleSystem",
+                "10",
+                "20"
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        }
+    ]
+}

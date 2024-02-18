@@ -1,6 +1,6 @@
-if ( TRACE ) { TRACE( JSON.parse( '["SingletonMono$1#init","SingletonMono$1#Awake","AutoDestroy#init","AutoDestroy#OnEnable","AutoDestroy#Update","AutoDestroy#OnDestroy","AutoDestroy#OnDisable","AutoDestructor#init","AutoDestructor#OnEnable","AutoDestructor#AutoDestroy","AutoDestructor#OnDisable","DefineHelper#init","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#ctor","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#ctor","DG.Tweening.DOTweenCYInstruction.WaitForKill#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForKill#ctor","DG.Tweening.DOTweenCYInstruction.WaitForPosition#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForPosition#ctor","DG.Tweening.DOTweenCYInstruction.WaitForRewind#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForRewind#ctor","DG.Tweening.DOTweenCYInstruction.WaitForStart#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForStart#ctor","DG.Tweening.DOTweenModuleAudio#DOFade","DG.Tweening.DOTweenModuleAudio#DOPitch","DG.Tweening.DOTweenModuleAudio#DOSetFloat","DG.Tweening.DOTweenModuleAudio#DOComplete","DG.Tweening.DOTweenModuleAudio#DOKill","DG.Tweening.DOTweenModuleAudio#DOFlip","DG.Tweening.DOTweenModuleAudio#DOGoto","DG.Tweening.DOTweenModuleAudio#DOPause","DG.Tweening.DOTweenModuleAudio#DOPlay","DG.Tweening.DOTweenModuleAudio#DOPlayBackwards","DG.Tweening.DOTweenModuleAudio#DOPlayForward","DG.Tweening.DOTweenModuleAudio#DORestart","DG.Tweening.DOTweenModuleAudio#DORewind","DG.Tweening.DOTweenModuleAudio#DOSmoothRewind","DG.Tweening.DOTweenModuleAudio#DOTogglePause","DG.Tweening.DOTweenModulePhysics#DOMove","DG.Tweening.DOTweenModulePhysics#DOMoveX","DG.Tweening.DOTweenModulePhysics#DOMoveY","DG.Tweening.DOTweenModulePhysics#DOMoveZ","DG.Tweening.DOTweenModulePhysics#DORotate","DG.Tweening.DOTweenModulePhysics#DOLookAt","DG.Tweening.DOTweenModulePhysics#DOJump","DG.Tweening.DOTweenModulePhysics#DOPath","DG.Tweening.DOTweenModulePhysics#DOPath$1","DG.Tweening.DOTweenModulePhysics#DOLocalPath","DG.Tweening.DOTweenModulePhysics#DOLocalPath$1","DG.Tweening.DOTweenModulePhysics2D#DOMove","DG.Tweening.DOTweenModulePhysics2D#DOMoveX","DG.Tweening.DOTweenModulePhysics2D#DOMoveY","DG.Tweening.DOTweenModulePhysics2D#DORotate","DG.Tweening.DOTweenModulePhysics2D#DOJump","DG.Tweening.DOTweenModulePhysics2D#DOPath","DG.Tweening.DOTweenModulePhysics2D#DOPath$1","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath$1","DG.Tweening.DOTweenModuleSprite#DOColor","DG.Tweening.DOTweenModuleSprite#DOFade","DG.Tweening.DOTweenModuleSprite#DOGradientColor","DG.Tweening.DOTweenModuleSprite#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOFade","DG.Tweening.DOTweenModuleUI#DOFade$1","DG.Tweening.DOTweenModuleUI#DOFade$2","DG.Tweening.DOTweenModuleUI#DOFade$3","DG.Tweening.DOTweenModuleUI#DOFade$4","DG.Tweening.DOTweenModuleUI#DOColor","DG.Tweening.DOTweenModuleUI#DOColor$1","DG.Tweening.DOTweenModuleUI#DOColor$2","DG.Tweening.DOTweenModuleUI#DOColor$3","DG.Tweening.DOTweenModuleUI#DOFillAmount","DG.Tweening.DOTweenModuleUI#DOGradientColor","DG.Tweening.DOTweenModuleUI#DOFlexibleSize","DG.Tweening.DOTweenModuleUI#DOMinSize","DG.Tweening.DOTweenModuleUI#DOPreferredSize","DG.Tweening.DOTweenModuleUI#DOScale","DG.Tweening.DOTweenModuleUI#DOAnchorPos","DG.Tweening.DOTweenModuleUI#DOAnchorPosX","DG.Tweening.DOTweenModuleUI#DOAnchorPosY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3D","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DX","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DZ","DG.Tweening.DOTweenModuleUI#DOAnchorMax","DG.Tweening.DOTweenModuleUI#DOAnchorMin","DG.Tweening.DOTweenModuleUI#DOPivot","DG.Tweening.DOTweenModuleUI#DOPivotX","DG.Tweening.DOTweenModuleUI#DOPivotY","DG.Tweening.DOTweenModuleUI#DOSizeDelta","DG.Tweening.DOTweenModuleUI#DOPunchAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos$1","DG.Tweening.DOTweenModuleUI#DOJumpAnchorPos","DG.Tweening.DOTweenModuleUI#DONormalizedPos","DG.Tweening.DOTweenModuleUI#DOHorizontalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOVerticalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOValue","DG.Tweening.DOTweenModuleUI#DOCounter","DG.Tweening.DOTweenModuleUI#DOText","DG.Tweening.DOTweenModuleUI#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOBlendableColor$1","DG.Tweening.DOTweenModuleUI#DOBlendableColor$2","DG.Tweening.DOTweenModuleUI#DOShapeCircle","DG.Tweening.DOTweenModuleUI.Utils#SwitchToRectTransform","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor$1","DG.Tweening.DOTweenModuleUnityVersion#WaitForCompletion","DG.Tweening.DOTweenModuleUnityVersion#WaitForRewind","DG.Tweening.DOTweenModuleUnityVersion#WaitForKill","DG.Tweening.DOTweenModuleUnityVersion#WaitForElapsedLoops","DG.Tweening.DOTweenModuleUnityVersion#WaitForPosition","DG.Tweening.DOTweenModuleUnityVersion#WaitForStart","DG.Tweening.DOTweenModuleUnityVersion#DOOffset","DG.Tweening.DOTweenModuleUnityVersion#DOTiling","DG.Tweening.DOTweenModuleUtils#Init","DG.Tweening.DOTweenModuleUtils#Preserver","DG.Tweening.DOTweenModuleUtils.Physics#SetOrientationOnPath","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody2D","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody","DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathTween","DoTweenMove#init","DoTweenMove#Start","DoTweenMove#DoMove","DoTweenMoveUI#init","DoTweenMoveUI#Start","DoTweenMoveUI#DoMove","EventDispatcher#Instance#get","EventDispatcher#Instance#set","EventDispatcher#HasInstance","EventDispatcher#init","EventDispatcher#Awake","EventDispatcher#OnDestroy","EventDispatcher#RegisterListener","EventDispatcher#PostEvent","EventDispatcher#RemoveListener","EventDispatcher#ClearAllListener","EventDispatcherExtension#RegisterListener","EventDispatcherExtension#PostEvent$1","EventDispatcherExtension#PostEvent","EventDispatcherExtension#RemoveListener","HelperUtility#DecimalRounding","HelperUtility#DisruptiveArrayObject","HelperUtility#DisruptiveListObject$1","HelperUtility#DisruptiveListObject","HelperUtility#DisruptiveList","HelperUtility#DisruptiveListSelf","HelperUtility#SelectionSortList","HelperUtility#StartThread","HelperUtility#StartThread$1","HelperUtility#StartAction$1","HelperUtility#StartAction","HelperUtility#StartActionRealTime","HelperUtility#StartActionNotUseCorutines","HelperUtility#GetPointDistanceFromObject","HelperUtility#GetDirectionFromAngle","HelperUtility#GetDirectionFromAngle_2","HelperUtility#DOLocalRotateQuaternion","HelperUtility#GetRotateDirection","HelperUtility#LookAtToDirection","HelperUtility#LookAtToDirectionAngleDetal","HelperUtility#LookAtToPosition","HelperUtility#LookAtToPositionAngleDetal","HelperUtility#RandomCustom","HelperUtility#RandomUnduplicated$1","HelperUtility#RandomUnduplicated","HelperUtility#SetPos","HelperUtility#PosHandle","LookAtCamera#Update","LookAtTarget#UpdateFunc","LunaPool#init","LunaPool#init","LunaPool#Awake","LunaPool#Spawn","LunaPool#Despawn","MMMaths#Vector3ToVector2","MMMaths#Vector2ToVector3","MMMaths#Vector2ToVector3$1","MMMaths#RandomVector3","MMMaths#RotatePointAroundPivot","MMMaths#RotatePointAroundPivot$1","MMMaths#Sum","MMMaths#RollADice","MMMaths#Chance","MMMaths#Approach","NameTag#init","RotateObject#init","RotateObject#Start","RotateObject#Rotate","SimplePool#init","SimplePool#Init","SimplePool#PoolPreLoad","SimplePool#Preload","SimplePool#Spawn$3","SimplePool#Spawn$2","SimplePool#Spawn","SimplePool#Spawn$1","SimplePool#Despawn","SimplePool#GetStackCount","SimplePool#ClearPool","SimplePool.Pool#StackCount#get","SimplePool.Pool#init","SimplePool.Pool#ctor","SimplePool.Pool#Preload","SimplePool.Pool#Spawn$1","SimplePool.Pool#Spawn","SimplePool.Pool#Despawn","SingletonWithouMono$1#Instance#get","SingletonWithouMono$1#init","SingletonWithouMono$1#init","SingletonWithouMono$1#Initialize","SingletonWithouMono$1#Preload","SlidingNumber#init","SlidingNumber#Start","SlidingNumber#AddToNumber","SlidingNumber#Update","VectorUlti#GetVectorFromAngle","VectorUlti#GetAngleFromVector","VectorUlti#Set$1","VectorUlti#Set","VectorUlti#Move","VectorUlti#ToVectorXZ","Singleton$1#Instance#get","AudioManager#inherits","AudioManager#PlaySoundBG","AudioManager#PlaySoundCarMove","AudioManager#PlaySoundCarCrash","AudioManager#PlaySoundWin","AudioManager#PlaySoundLose","AudioManager#PlaySoundFX","AudioManager#PlaySound","AudioManager#StopSound","GameManager1#inherits","GlobalInstance#inherits","GlobalInstance#init","SingletonDontDestroyOnLoad$1#Awake"]' ) ); }
+if ( TRACE ) { TRACE( JSON.parse( '["SingletonMono$1#init","SingletonMono$1#Awake","AutoDestroy#init","AutoDestroy#OnEnable","AutoDestroy#Update","AutoDestroy#OnDestroy","AutoDestroy#OnDisable","AutoDestructor#init","AutoDestructor#OnEnable","AutoDestructor#AutoDestroy","AutoDestructor#OnDisable","BottleController#init","BottleController#Start","BottleController#BottleIsSelected","BottleController#BottleIsUnSelected","BottleController#IEBottleMoveY","BottleController#TransferColor","BottleController#IEMoveBottle","BottleController#IEMoveBottleBack","BottleController#UpdateColor","BottleController#IERotateBottle","BottleController#IERotateBottleBack","BottleController#SetColorTop","BottleController#UpdateTopColorValues","BottleController#FillBottleCheck","BottleController#CheckCompleteBottle","BottleController#CalculateRotationIndex","BottleController#FillUp","BottleController#ChooseRotationAndDirection","BottleController#AnimDoneLine","BottleController#DisableAnimLine","BottleController#GetCurrentFill","DefineHelper#init","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#ctor","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#ctor","DG.Tweening.DOTweenCYInstruction.WaitForKill#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForKill#ctor","DG.Tweening.DOTweenCYInstruction.WaitForPosition#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForPosition#ctor","DG.Tweening.DOTweenCYInstruction.WaitForRewind#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForRewind#ctor","DG.Tweening.DOTweenCYInstruction.WaitForStart#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForStart#ctor","DG.Tweening.DOTweenModuleAudio#DOFade","DG.Tweening.DOTweenModuleAudio#DOPitch","DG.Tweening.DOTweenModuleAudio#DOSetFloat","DG.Tweening.DOTweenModuleAudio#DOComplete","DG.Tweening.DOTweenModuleAudio#DOKill","DG.Tweening.DOTweenModuleAudio#DOFlip","DG.Tweening.DOTweenModuleAudio#DOGoto","DG.Tweening.DOTweenModuleAudio#DOPause","DG.Tweening.DOTweenModuleAudio#DOPlay","DG.Tweening.DOTweenModuleAudio#DOPlayBackwards","DG.Tweening.DOTweenModuleAudio#DOPlayForward","DG.Tweening.DOTweenModuleAudio#DORestart","DG.Tweening.DOTweenModuleAudio#DORewind","DG.Tweening.DOTweenModuleAudio#DOSmoothRewind","DG.Tweening.DOTweenModuleAudio#DOTogglePause","DG.Tweening.DOTweenModulePhysics#DOMove","DG.Tweening.DOTweenModulePhysics#DOMoveX","DG.Tweening.DOTweenModulePhysics#DOMoveY","DG.Tweening.DOTweenModulePhysics#DOMoveZ","DG.Tweening.DOTweenModulePhysics#DORotate","DG.Tweening.DOTweenModulePhysics#DOLookAt","DG.Tweening.DOTweenModulePhysics#DOJump","DG.Tweening.DOTweenModulePhysics#DOPath","DG.Tweening.DOTweenModulePhysics#DOPath$1","DG.Tweening.DOTweenModulePhysics#DOLocalPath","DG.Tweening.DOTweenModulePhysics#DOLocalPath$1","DG.Tweening.DOTweenModulePhysics2D#DOMove","DG.Tweening.DOTweenModulePhysics2D#DOMoveX","DG.Tweening.DOTweenModulePhysics2D#DOMoveY","DG.Tweening.DOTweenModulePhysics2D#DORotate","DG.Tweening.DOTweenModulePhysics2D#DOJump","DG.Tweening.DOTweenModulePhysics2D#DOPath","DG.Tweening.DOTweenModulePhysics2D#DOPath$1","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath$1","DG.Tweening.DOTweenModuleSprite#DOColor","DG.Tweening.DOTweenModuleSprite#DOFade","DG.Tweening.DOTweenModuleSprite#DOGradientColor","DG.Tweening.DOTweenModuleSprite#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOFade","DG.Tweening.DOTweenModuleUI#DOFade$1","DG.Tweening.DOTweenModuleUI#DOFade$2","DG.Tweening.DOTweenModuleUI#DOFade$3","DG.Tweening.DOTweenModuleUI#DOFade$4","DG.Tweening.DOTweenModuleUI#DOColor","DG.Tweening.DOTweenModuleUI#DOColor$1","DG.Tweening.DOTweenModuleUI#DOColor$2","DG.Tweening.DOTweenModuleUI#DOColor$3","DG.Tweening.DOTweenModuleUI#DOFillAmount","DG.Tweening.DOTweenModuleUI#DOGradientColor","DG.Tweening.DOTweenModuleUI#DOFlexibleSize","DG.Tweening.DOTweenModuleUI#DOMinSize","DG.Tweening.DOTweenModuleUI#DOPreferredSize","DG.Tweening.DOTweenModuleUI#DOScale","DG.Tweening.DOTweenModuleUI#DOAnchorPos","DG.Tweening.DOTweenModuleUI#DOAnchorPosX","DG.Tweening.DOTweenModuleUI#DOAnchorPosY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3D","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DX","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DZ","DG.Tweening.DOTweenModuleUI#DOAnchorMax","DG.Tweening.DOTweenModuleUI#DOAnchorMin","DG.Tweening.DOTweenModuleUI#DOPivot","DG.Tweening.DOTweenModuleUI#DOPivotX","DG.Tweening.DOTweenModuleUI#DOPivotY","DG.Tweening.DOTweenModuleUI#DOSizeDelta","DG.Tweening.DOTweenModuleUI#DOPunchAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos$1","DG.Tweening.DOTweenModuleUI#DOJumpAnchorPos","DG.Tweening.DOTweenModuleUI#DONormalizedPos","DG.Tweening.DOTweenModuleUI#DOHorizontalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOVerticalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOValue","DG.Tweening.DOTweenModuleUI#DOCounter","DG.Tweening.DOTweenModuleUI#DOText","DG.Tweening.DOTweenModuleUI#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOBlendableColor$1","DG.Tweening.DOTweenModuleUI#DOBlendableColor$2","DG.Tweening.DOTweenModuleUI#DOShapeCircle","DG.Tweening.DOTweenModuleUI.Utils#SwitchToRectTransform","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor$1","DG.Tweening.DOTweenModuleUnityVersion#WaitForCompletion","DG.Tweening.DOTweenModuleUnityVersion#WaitForRewind","DG.Tweening.DOTweenModuleUnityVersion#WaitForKill","DG.Tweening.DOTweenModuleUnityVersion#WaitForElapsedLoops","DG.Tweening.DOTweenModuleUnityVersion#WaitForPosition","DG.Tweening.DOTweenModuleUnityVersion#WaitForStart","DG.Tweening.DOTweenModuleUnityVersion#DOOffset","DG.Tweening.DOTweenModuleUnityVersion#DOTiling","DG.Tweening.DOTweenModuleUtils#Init","DG.Tweening.DOTweenModuleUtils#Preserver","DG.Tweening.DOTweenModuleUtils.Physics#SetOrientationOnPath","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody2D","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody","DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathTween","DoTweenMove#init","DoTweenMove#Start","DoTweenMove#DoMove","DoTweenMoveUI#init","DoTweenMoveUI#Start","DoTweenMoveUI#DoMove","EventDispatcher#Instance#get","EventDispatcher#Instance#set","EventDispatcher#HasInstance","EventDispatcher#init","EventDispatcher#Awake","EventDispatcher#OnDestroy","EventDispatcher#RegisterListener","EventDispatcher#PostEvent","EventDispatcher#RemoveListener","EventDispatcher#ClearAllListener","EventDispatcherExtension#RegisterListener","EventDispatcherExtension#PostEvent$1","EventDispatcherExtension#PostEvent","EventDispatcherExtension#RemoveListener","FxBubblesBottle#init","FxBubblesBottle#ActiveFx","FxBubblesBottle#UpdateFx","GamePlayController#Update","HelperUtility#init","HelperUtility#DecimalRounding","HelperUtility#DisruptiveArrayObject","HelperUtility#DisruptiveListObject$1","HelperUtility#DisruptiveListObject","HelperUtility#DisruptiveList","HelperUtility#DisruptiveListSelf","HelperUtility#SelectionSortList","HelperUtility#StartThread","HelperUtility#StartThread$1","HelperUtility#StartAction$1","HelperUtility#StartAction","HelperUtility#StartActionRealTime","HelperUtility#StartActionNotUseCorutines","HelperUtility#GetPointDistanceFromObject","HelperUtility#GetDirectionFromAngle","HelperUtility#GetDirectionFromAngle_2","HelperUtility#DOLocalRotateQuaternion","HelperUtility#GetRotateDirection","HelperUtility#LookAtToDirection","HelperUtility#LookAtToDirectionAngleDetal","HelperUtility#LookAtToPosition","HelperUtility#LookAtToPositionAngleDetal","HelperUtility#RandomCustom","HelperUtility#RandomUnduplicated$1","HelperUtility#RandomUnduplicated","HelperUtility#SetPos","HelperUtility#PosHandle","HelperUtility#GetSurfaceColor","LookAtCamera#Update","LookAtTarget#UpdateFunc","LunaPool#init","LunaPool#init","LunaPool#Awake","LunaPool#Spawn","LunaPool#Despawn","MMMaths#Vector3ToVector2","MMMaths#Vector2ToVector3","MMMaths#Vector2ToVector3$1","MMMaths#RandomVector3","MMMaths#RotatePointAroundPivot","MMMaths#RotatePointAroundPivot$1","MMMaths#Sum","MMMaths#RollADice","MMMaths#Chance","MMMaths#Approach","NameTag#init","RotateObject#init","RotateObject#Start","RotateObject#Rotate","SimplePool#init","SimplePool#Init","SimplePool#PoolPreLoad","SimplePool#Preload","SimplePool#Spawn$3","SimplePool#Spawn$2","SimplePool#Spawn","SimplePool#Spawn$1","SimplePool#Despawn","SimplePool#GetStackCount","SimplePool#ClearPool","SimplePool.Pool#StackCount#get","SimplePool.Pool#init","SimplePool.Pool#ctor","SimplePool.Pool#Preload","SimplePool.Pool#Spawn$1","SimplePool.Pool#Spawn","SimplePool.Pool#Despawn","SingletonWithouMono$1#Instance#get","SingletonWithouMono$1#init","SingletonWithouMono$1#init","SingletonWithouMono$1#Initialize","SingletonWithouMono$1#Preload","SlidingNumber#init","SlidingNumber#Start","SlidingNumber#AddToNumber","SlidingNumber#Update","VectorUlti#GetVectorFromAngle","VectorUlti#GetAngleFromVector","VectorUlti#Set$1","VectorUlti#Set","VectorUlti#Move","VectorUlti#ToVectorXZ","Singleton$1#Instance#get","AudioManager#inherits","AudioManager#PlaySoundBG","AudioManager#PlaySoundCarMove","AudioManager#PlaySoundCarCrash","AudioManager#PlaySoundWin","AudioManager#PlaySoundLose","AudioManager#PlaySoundFX","AudioManager#PlaySound","AudioManager#StopSound","GameManager1#inherits","GameManager1#Start","GameManager1#EndGame","GameManager1#InstallAllGame","GameManager1#CalculateRatio","GlobalInstance#inherits","GlobalInstance#init","SingletonDontDestroyOnLoad$1#Awake"]' ) ); }
 /**
- * @version 1.0.8812.17957
+ * @version 1.0.8814.41188
  * @copyright anton
  * @compiler Bridge.NET 17.9.40-luna
  */
@@ -184,6 +184,676 @@ if ( TRACE ) { TRACE( "AutoDestructor#OnDisable", this ); }
         }
     });
     /*AutoDestructor+TypeDestroy end.*/
+
+    /*BottleController start.*/
+    Bridge.define("BottleController", {
+        inherits: [UnityEngine.MonoBehaviour],
+        fields: {
+            arrColor: null,
+            bottleMaskSR: null,
+            lstWaterSurfaceTop: null,
+            lstWaterSurface: null,
+            fillAmountCur: null,
+            scaleAndRotationMultiplierCur: null,
+            rotationSpeedMultipiler: null,
+            arrFillAmount: null,
+            arrRotationValues: null,
+            rotationIndex: 0,
+            numberOfColorInBottle: 0,
+            numberOfTopColorLayers: 0,
+            topColor: null,
+            otherBottleControllerRef: null,
+            numberOfColorToTransfer: 0,
+            leftPoint: null,
+            rightPoint: null,
+            choosenPoint: null,
+            directionMultiplier: 0,
+            originPos: null,
+            startPos: null,
+            endPos: null,
+            lineRenderer: null,
+            fxBotNuoc: null,
+            boxCollider2D: null,
+            done: null,
+            isCanController: false,
+            timeRotate: 0,
+            _tweenAnimLine: null
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "BottleController#init", this ); }
+
+                this.topColor = new UnityEngine.Color();
+                this.originPos = new UnityEngine.Vector3();
+                this.startPos = new UnityEngine.Vector3();
+                this.endPos = new UnityEngine.Vector3();
+                this.lstWaterSurfaceTop = new (System.Collections.Generic.List$1(UnityEngine.SpriteRenderer)).ctor();
+                this.lstWaterSurface = new (System.Collections.Generic.List$1(UnityEngine.SpriteRenderer)).ctor();
+                this.rotationIndex = 0;
+                this.numberOfColorInBottle = 4;
+                this.numberOfTopColorLayers = 1;
+                this.numberOfColorToTransfer = 0;
+                this.directionMultiplier = 1.0;
+                this.timeRotate = 1.0;
+            }
+        },
+        methods: {
+            /*BottleController.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "BottleController#Start", this ); }
+
+                this.bottleMaskSR.material.SetFloat$1("_FillAmount", this.arrFillAmount[this.numberOfColorInBottle]);
+                this.originPos = this.transform.position.$clone();
+                this.UpdateColor();
+                this.UpdateTopColorValues();
+                this.fxBotNuoc.ActiveFx(this.numberOfColorInBottle > 0, this.arrFillAmount[this.numberOfColorInBottle]);
+                this.isCanController = true;
+            },
+            /*BottleController.Start end.*/
+
+            /*BottleController.BottleIsSelected start.*/
+            BottleIsSelected: function () {
+if ( TRACE ) { TRACE( "BottleController#BottleIsSelected", this ); }
+
+                this.StartCoroutine$1(this.IEBottleMoveY(0.5));
+            },
+            /*BottleController.BottleIsSelected end.*/
+
+            /*BottleController.BottleIsUnSelected start.*/
+            BottleIsUnSelected: function () {
+if ( TRACE ) { TRACE( "BottleController#BottleIsUnSelected", this ); }
+
+                this.StartCoroutine$1(this.IEBottleMoveY(0));
+            },
+            /*BottleController.BottleIsUnSelected end.*/
+
+            /*BottleController.IEBottleMoveY start.*/
+            IEBottleMoveY: function (y) {
+if ( TRACE ) { TRACE( "BottleController#IEBottleMoveY", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    t,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    t = 0;
+                                    $step = 1;
+                                    continue;
+                                }
+                                case 1: {
+                                    if ( t <= 0.3 ) {
+                                            $step = 2;
+                                            continue;
+                                        } 
+                                        $step = 4;
+                                        continue;
+                                }
+                                case 2: {
+                                    this.transform.position = new pc.Vec3().lerp( this.transform.position, UnityEngine.Vector3.FromVector2(new pc.Vec2( this.originPos.x, this.originPos.y + y )), t );
+                                        t += UnityEngine.Time.deltaTime * 2;
+                                        $enumerator.current = new UnityEngine.WaitForEndOfFrame();
+                                        $step = 3;
+                                        return true;
+                                }
+                                case 3: {
+                                    
+                                        $step = 1;
+                                        continue;
+                                }
+                                case 4: {
+                                    this.transform.position = UnityEngine.Vector3.FromVector2(new pc.Vec2( this.originPos.x, this.originPos.y + y ));
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*BottleController.IEBottleMoveY end.*/
+
+            /*BottleController.TransferColor start.*/
+            TransferColor: function () {
+if ( TRACE ) { TRACE( "BottleController#TransferColor", this ); }
+
+                var $t, $t1, $t2;
+                this.ChooseRotationAndDirection();
+                this.numberOfColorToTransfer = UnityEngine.Mathf.Min(this.numberOfTopColorLayers, ((4 - this.otherBottleControllerRef.numberOfColorInBottle) | 0));
+                for (var i = 0; i < this.numberOfColorToTransfer; i = (i + 1) | 0) {
+                    ($t = this.otherBottleControllerRef.arrColor)[((this.otherBottleControllerRef.numberOfColorInBottle + i) | 0)] = this.topColor.$clone();
+                }
+
+                this.otherBottleControllerRef.UpdateColor();
+                this.CalculateRotationIndex(((4 - this.otherBottleControllerRef.numberOfColorInBottle) | 0));
+
+                ($t1 = this.transform.GetComponent(UnityEngine.SpriteRenderer)).sortingOrder = ($t1.sortingOrder + 2) | 0;
+                ($t2 = this.bottleMaskSR).sortingOrder = ($t2.sortingOrder + 2) | 0;
+
+                this.StartCoroutine$1(this.IEMoveBottle());
+            },
+            /*BottleController.TransferColor end.*/
+
+            /*BottleController.IEMoveBottle start.*/
+            IEMoveBottle: function () {
+if ( TRACE ) { TRACE( "BottleController#IEMoveBottle", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    t,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    this.isCanController = false;
+                                        this.startPos = this.transform.position.$clone();
+                                        if (UnityEngine.Component.op_Equality(this.choosenPoint, this.leftPoint)) {
+                                            this.endPos = this.otherBottleControllerRef.rightPoint.position.$clone();
+                                        } else {
+                                            this.endPos = this.otherBottleControllerRef.leftPoint.position.$clone();
+                                        }
+
+                                        t = 0;
+                                    $step = 1;
+                                    continue;
+                                }
+                                case 1: {
+                                    if ( t <= 1.0 ) {
+                                            $step = 2;
+                                            continue;
+                                        } 
+                                        $step = 4;
+                                        continue;
+                                }
+                                case 2: {
+                                    this.transform.position = new pc.Vec3().lerp( this.startPos, this.endPos, t );
+                                        t += UnityEngine.Time.deltaTime * 2;
+                                        $enumerator.current = new UnityEngine.WaitForEndOfFrame();
+                                        $step = 3;
+                                        return true;
+                                }
+                                case 3: {
+                                    
+                                        $step = 1;
+                                        continue;
+                                }
+                                case 4: {
+                                    this.fxBotNuoc.ActiveFx(false);
+                                        this.otherBottleControllerRef.fxBotNuoc.ActiveFx(true);
+                                        this.DisableAnimLine();
+                                        this.transform.position = this.endPos.$clone();
+                                        this.StartCoroutine$1(this.IERotateBottle());
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*BottleController.IEMoveBottle end.*/
+
+            /*BottleController.IEMoveBottleBack start.*/
+            IEMoveBottleBack: function () {
+if ( TRACE ) { TRACE( "BottleController#IEMoveBottleBack", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    t,
+                    $t,
+                    $t1,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    this.startPos = this.transform.position.$clone();
+                                        this.endPos = this.originPos.$clone();
+                                        t = 0;
+                                    $step = 1;
+                                    continue;
+                                }
+                                case 1: {
+                                    if ( t <= 1.0 ) {
+                                            $step = 2;
+                                            continue;
+                                        } 
+                                        $step = 4;
+                                        continue;
+                                }
+                                case 2: {
+                                    this.transform.position = new pc.Vec3().lerp( this.startPos, this.endPos, t );
+                                        t += UnityEngine.Time.deltaTime * 2;
+                                        $enumerator.current = new UnityEngine.WaitForEndOfFrame();
+                                        $step = 3;
+                                        return true;
+                                }
+                                case 3: {
+                                    
+                                        $step = 1;
+                                        continue;
+                                }
+                                case 4: {
+                                    this.transform.position = this.endPos.$clone();
+                                        ($t = this.transform.GetComponent(UnityEngine.SpriteRenderer)).sortingOrder = ($t.sortingOrder - 2) | 0;
+                                        ($t1 = this.bottleMaskSR).sortingOrder = ($t1.sortingOrder - 2) | 0;
+                                        this.isCanController = true;
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*BottleController.IEMoveBottleBack end.*/
+
+            /*BottleController.UpdateColor start.*/
+            UpdateColor: function () {
+if ( TRACE ) { TRACE( "BottleController#UpdateColor", this ); }
+
+                this.bottleMaskSR.material.SetColor$1("_C1", this.arrColor[0].$clone());
+                this.bottleMaskSR.material.SetColor$1("_C2", this.arrColor[1].$clone());
+                this.bottleMaskSR.material.SetColor$1("_C3", this.arrColor[2].$clone());
+                this.bottleMaskSR.material.SetColor$1("_C4", this.arrColor[3].$clone());
+
+                for (var i = 0; i < this.lstWaterSurface.Count; i = (i + 1) | 0) {
+                    this.lstWaterSurface.getItem(i).color = this.arrColor[((i + 1) | 0)].$clone();
+                }
+
+                this.SetColorTop(this.arrColor[((this.arrColor.length - 1) | 0)].$clone());
+            },
+            /*BottleController.UpdateColor end.*/
+
+            /*BottleController.IERotateBottle start.*/
+            IERotateBottle: function () {
+if ( TRACE ) { TRACE( "BottleController#IERotateBottle", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    t,
+                    lerpValue,
+                    angleValue,
+                    lastAngleValue,
+                    $t,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    t = 0;
+
+                                        lastAngleValue = 0;
+                                    $step = 1;
+                                    continue;
+                                }
+                                case 1: {
+                                    if ( t < this.timeRotate ) {
+                                            $step = 2;
+                                            continue;
+                                        } 
+                                        $step = 4;
+                                        continue;
+                                }
+                                case 2: {
+                                    lerpValue = t / this.timeRotate;
+                                        angleValue = pc.math.lerp(0.0, this.directionMultiplier * this.arrRotationValues[this.rotationIndex], lerpValue);
+                                        //transform.eulerAngles = new Vector3(0, 0, angleValue);
+
+                                        this.transform.RotateAround(this.choosenPoint.position.$clone(), new pc.Vec3( 0, 0, 1 ), lastAngleValue - angleValue);
+
+                                        this.bottleMaskSR.material.SetFloat$1("_SARM", this.scaleAndRotationMultiplierCur.value(angleValue));
+                                        //+ 0.005f
+                                        if (this.arrFillAmount[this.numberOfColorInBottle] > this.fillAmountCur.value(angleValue)) {
+                                            if (!this.lineRenderer.enabled) {
+                                                this.lineRenderer.startColor = this.topColor.$clone();
+                                                this.lineRenderer.endColor = this.topColor.$clone();
+                                                this.lineRenderer.startWidth = 0.125;
+                                                this.lineRenderer.SetPosition(0, this.choosenPoint.position.$clone());
+                                                this.lineRenderer.SetPosition(1, this.choosenPoint.position.$clone().sub( pc.Vec3.UP.clone().clone().scale( 5.5 ) ));
+                                                this.lineRenderer.enabled = true;
+                                                this.AnimDoneLine();
+                                            }
+
+                                            this.bottleMaskSR.material.SetFloat$1("_FillAmount", this.fillAmountCur.value(angleValue));
+                                            this.otherBottleControllerRef.FillUp(this.fillAmountCur.value(lastAngleValue) - this.fillAmountCur.value(angleValue));
+                                        }
+
+                                        t += UnityEngine.Time.deltaTime * this.rotationSpeedMultipiler.value(angleValue);
+                                        lastAngleValue = angleValue;
+                                        $enumerator.current = new UnityEngine.WaitForEndOfFrame();
+                                        $step = 3;
+                                        return true;
+                                }
+                                case 3: {
+                                    
+                                        $step = 1;
+                                        continue;
+                                }
+                                case 4: {
+                                    angleValue = this.directionMultiplier * this.arrRotationValues[this.rotationIndex];
+                                        //transform.eulerAngles = new Vector3(0, 0, angleValue);
+                                        this.bottleMaskSR.material.SetFloat$1("_SARM", this.scaleAndRotationMultiplierCur.value(angleValue));
+                                        this.bottleMaskSR.material.SetFloat$1("_FillAmount", this.fillAmountCur.value(angleValue));
+                                        this.numberOfColorInBottle = (this.numberOfColorInBottle - this.numberOfColorToTransfer) | 0;
+                                        ($t = this.otherBottleControllerRef).numberOfColorInBottle = ($t.numberOfColorInBottle + this.numberOfColorToTransfer) | 0;
+                                        this.lineRenderer.enabled = false;
+                                        this.StartCoroutine$1(this.IERotateBottleBack());
+                                        this.otherBottleControllerRef.CheckCompleteBottle();
+                                        Singleton$1(GlobalInstance).Instance.gameManagerInstance.gamePlayController.isCanControll = true;
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*BottleController.IERotateBottle end.*/
+
+            /*BottleController.IERotateBottleBack start.*/
+            IERotateBottleBack: function () {
+if ( TRACE ) { TRACE( "BottleController#IERotateBottleBack", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    t,
+                    lerpValue,
+                    angleValue,
+                    lastAngleValue,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    t = 0;
+                                        lastAngleValue = this.directionMultiplier * this.arrRotationValues[this.rotationIndex];
+                                    $step = 1;
+                                    continue;
+                                }
+                                case 1: {
+                                    if ( t < this.timeRotate ) {
+                                            $step = 2;
+                                            continue;
+                                        } 
+                                        $step = 4;
+                                        continue;
+                                }
+                                case 2: {
+                                    lerpValue = t / this.timeRotate;
+                                        angleValue = pc.math.lerp(this.directionMultiplier * this.arrRotationValues[this.rotationIndex], 0.0, lerpValue);
+                                        //transform.eulerAngles = new Vector3(0, 0, angleValue);
+
+                                        this.transform.RotateAround(this.choosenPoint.position.$clone(), new pc.Vec3( 0, 0, 1 ), lastAngleValue - angleValue);
+
+                                        this.bottleMaskSR.material.SetFloat$1("_SARM", this.scaleAndRotationMultiplierCur.value(angleValue));
+
+                                        lastAngleValue = angleValue;
+                                        t += UnityEngine.Time.deltaTime;
+                                        $enumerator.current = new UnityEngine.WaitForEndOfFrame();
+                                        $step = 3;
+                                        return true;
+                                }
+                                case 3: {
+                                    
+                                        $step = 1;
+                                        continue;
+                                }
+                                case 4: {
+                                    this.UpdateTopColorValues();
+                                        angleValue = 0.0;
+                                        this.transform.eulerAngles = new pc.Vec3( 0, 0, angleValue );
+                                        this.bottleMaskSR.material.SetFloat$1("_SARM", this.scaleAndRotationMultiplierCur.value(angleValue));
+                                        this.StartCoroutine$1(this.IEMoveBottleBack());
+                                        this.fxBotNuoc.ActiveFx(true, this.GetCurrentFill());
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*BottleController.IERotateBottleBack end.*/
+
+            /*BottleController.SetColorTop start.*/
+            SetColorTop: function (color) {
+if ( TRACE ) { TRACE( "BottleController#SetColorTop", this ); }
+
+                var $t;
+                var targetColor = HelperUtility.GetSurfaceColor(color.$clone());
+                $t = Bridge.getEnumerator(this.lstWaterSurfaceTop);
+                try {
+                    while ($t.moveNext()) {
+                        var spriteRenderer = $t.Current;
+                        spriteRenderer.color = targetColor.$clone();
+                    }
+                } finally {
+                    if (Bridge.is($t, System.IDisposable)) {
+                        $t.System$IDisposable$Dispose();
+                    }
+                }
+            },
+            /*BottleController.SetColorTop end.*/
+
+            /*BottleController.UpdateTopColorValues start.*/
+            UpdateTopColorValues: function () {
+if ( TRACE ) { TRACE( "BottleController#UpdateTopColorValues", this ); }
+
+                this.topColor = new pc.Color( 0, 0, 0, 0 );
+                if (this.numberOfColorInBottle === 0) {
+                    return;
+                }
+                this.numberOfTopColorLayers = 1;
+                this.topColor = this.arrColor[((this.numberOfColorInBottle - 1) | 0)].$clone();
+                for (var i = this.numberOfColorInBottle; i > 1; i = (i - 1) | 0) {
+                    if (!this.arrColor[((i - 1) | 0)].strictEquals( this.arrColor[((i - 2) | 0)].$clone() )) {
+                        break;
+                    }
+                    this.numberOfTopColorLayers = (this.numberOfTopColorLayers + 1) | 0;
+                }
+
+                this.rotationIndex = (4 - (((this.numberOfColorInBottle - this.numberOfTopColorLayers) | 0))) | 0;
+
+                // if (numberOfColorInBottle == 4)
+                // {
+                //     if (arrColor[3].Equals(arrColor[2]))
+                //     {
+                //         numberOfTopColorLayers = 2;
+                //         if (arrColor[2].Equals(arrColor[1]))
+                //         {
+                //             numberOfTopColorLayers = 3;
+                //             if (arrColor[1].Equals(arrColor[0]))
+                //             {
+                //                 numberOfTopColorLayers = 4;
+                //             }
+                //         }
+                //     }
+                // }
+                // else if (numberOfColorInBottle == 3)
+                // {
+                //     if (arrColor[2].Equals(arrColor[1]))
+                //     {
+                //         numberOfTopColorLayers = 2;
+                //         if (arrColor[1].Equals(arrColor[0]))
+                //         {
+                //             numberOfTopColorLayers = 3;
+                //         }
+                //     }
+                // }
+                // else if (numberOfColorInBottle == 2)
+                // {
+                //     if (arrColor[1].Equals(arrColor[0]))
+                //     {
+                //         numberOfTopColorLayers = 2;
+                //     }
+                // }
+                //
+                // rotationIndex = 3 - (numberOfColorInBottle - numberOfTopColorLayers);
+            },
+            /*BottleController.UpdateTopColorValues end.*/
+
+            /*BottleController.FillBottleCheck start.*/
+            FillBottleCheck: function (colorToCheck) {
+if ( TRACE ) { TRACE( "BottleController#FillBottleCheck", this ); }
+
+                if (this.numberOfColorInBottle === 0) {
+                    return true;
+                } else {
+                    if (this.numberOfColorInBottle === 4) {
+                        return false;
+                    } else {
+                        if (this.topColor.strictEquals( colorToCheck.$clone() )) {
+                            return true;
+                        } else {
+                            return false;
+                        }
+                    }
+                }
+            },
+            /*BottleController.FillBottleCheck end.*/
+
+            /*BottleController.CheckCompleteBottle start.*/
+            CheckCompleteBottle: function () {
+if ( TRACE ) { TRACE( "BottleController#CheckCompleteBottle", this ); }
+
+                var isDone = true;
+                for (var i = 0; i < ((this.arrColor.length - 1) | 0); i = (i + 1) | 0) {
+                    for (var j = 1; j < this.arrColor.length; j = (j + 1) | 0) {
+                        if (!pc.Color.equals( this.arrColor[i], this.arrColor[j] )) {
+                            isDone = false;
+                            break;
+                        }
+                    }
+                }
+
+                if (this.numberOfColorInBottle !== 4) {
+                    isDone = false;
+                }
+
+                if (isDone) {
+                    this.done.SetActive(true);
+                    var psMain = this.done.transform.GetChild(2).GetComponent(UnityEngine.ParticleSystem).main;
+                    psMain.startColor = new pc.MinMaxGradient( this.arrColor[0].$clone() );
+                    this.fxBotNuoc.ActiveFx(true, this.GetCurrentFill());
+                    this.boxCollider2D.enabled = false;
+                }
+            },
+            /*BottleController.CheckCompleteBottle end.*/
+
+            /*BottleController.CalculateRotationIndex start.*/
+            CalculateRotationIndex: function (numberOfEmptySpaceInSecondBottle) {
+if ( TRACE ) { TRACE( "BottleController#CalculateRotationIndex", this ); }
+
+                this.rotationIndex = (4 - (((this.numberOfColorInBottle - UnityEngine.Mathf.Min(numberOfEmptySpaceInSecondBottle, this.numberOfTopColorLayers)) | 0))) | 0;
+            },
+            /*BottleController.CalculateRotationIndex end.*/
+
+            /*BottleController.FillUp start.*/
+            FillUp: function (fillAmountToAdd) {
+if ( TRACE ) { TRACE( "BottleController#FillUp", this ); }
+
+                this.bottleMaskSR.material.SetFloat$1("_FillAmount", this.bottleMaskSR.material.GetFloat$1("_FillAmount") + fillAmountToAdd);
+            },
+            /*BottleController.FillUp end.*/
+
+            /*BottleController.ChooseRotationAndDirection start.*/
+            ChooseRotationAndDirection: function () {
+if ( TRACE ) { TRACE( "BottleController#ChooseRotationAndDirection", this ); }
+
+                if (this.transform.position.x > this.otherBottleControllerRef.transform.position.x) {
+                    this.choosenPoint = this.leftPoint;
+                    this.directionMultiplier = -1.0;
+                } else {
+                    this.choosenPoint = this.rightPoint;
+                    this.directionMultiplier = 1.0;
+                }
+                // choosenPoint = leftPoint;
+                // directionMultiplier = -1.0f;
+            },
+            /*BottleController.ChooseRotationAndDirection end.*/
+
+            /*BottleController.AnimDoneLine start.*/
+            AnimDoneLine: function () {
+if ( TRACE ) { TRACE( "BottleController#AnimDoneLine", this ); }
+
+                var startWidth = this.lineRenderer.startWidth;
+                this._tweenAnimLine = DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Core.TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions), DG.Tweening.DOTween.To$4(function () {
+                    return startWidth;
+                }, Bridge.fn.bind(this, function (x) {
+                    this.lineRenderer.startWidth = x;
+                }), 0.0, 0.3), DG.Tweening.Ease.InExpo);
+            },
+            /*BottleController.AnimDoneLine end.*/
+
+            /*BottleController.DisableAnimLine start.*/
+            DisableAnimLine: function () {
+if ( TRACE ) { TRACE( "BottleController#DisableAnimLine", this ); }
+
+                this._tweenAnimLine != null ? DG.Tweening.TweenExtensions.Kill(this._tweenAnimLine) : null;
+            },
+            /*BottleController.DisableAnimLine end.*/
+
+            /*BottleController.GetCurrentFill start.*/
+            GetCurrentFill: function () {
+if ( TRACE ) { TRACE( "BottleController#GetCurrentFill", this ); }
+
+                return this.bottleMaskSR.material.GetFloat$1("_FillAmount");
+            },
+            /*BottleController.GetCurrentFill end.*/
+
+
+        }
+    });
+    /*BottleController end.*/
 
     /*DefineHelper start.*/
     Bridge.define("DefineHelper", {
@@ -3726,6 +4396,111 @@ if ( TRACE ) { TRACE( "EventDispatcherExtension#RemoveListener", this ); }
         }
     });
     /*EventID end.*/
+
+    /*FxBubblesBottle start.*/
+    Bridge.define("FxBubblesBottle", {
+        inherits: [UnityEngine.MonoBehaviour],
+        fields: {
+            lifeTime: 0,
+            RatioDefault: 0,
+            CamRatio: 0,
+            fxBubbles: null
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "FxBubblesBottle#init", this ); }
+
+                this.RatioDefault = 1.77777779;
+            }
+        },
+        methods: {
+            /*FxBubblesBottle.ActiveFx start.*/
+            ActiveFx: function (isActive, ratioLifeTime) {
+if ( TRACE ) { TRACE( "FxBubblesBottle#ActiveFx", this ); }
+
+                if (ratioLifeTime === void 0) { ratioLifeTime = 0.0; }
+                this.CamRatio = Singleton$1(GlobalInstance).Instance.gameManagerInstance.CalculateRatio(UnityEngine.Camera.main);
+                this.gameObject.SetActive(isActive);
+                if (!isActive) {
+                    return;
+                }
+                this.UpdateFx(ratioLifeTime);
+            },
+            /*FxBubblesBottle.ActiveFx end.*/
+
+            /*FxBubblesBottle.UpdateFx start.*/
+            UpdateFx: function (ratioLifeTime) {
+if ( TRACE ) { TRACE( "FxBubblesBottle#UpdateFx", this ); }
+
+                if (ratioLifeTime === void 0) { ratioLifeTime = 0.0; }
+                var psMain = this.fxBubbles.main;
+                var ratioScreen = this.RatioDefault / this.CamRatio;
+                var realLifeTime = this.lifeTime * ratioLifeTime * ratioScreen;
+                psMain.startLifetime = new pc.MinMaxCurve( realLifeTime );
+            },
+            /*FxBubblesBottle.UpdateFx end.*/
+
+
+        }
+    });
+    /*FxBubblesBottle end.*/
+
+    /*GamePlayController start.*/
+    Bridge.define("GamePlayController", {
+        inherits: [UnityEngine.MonoBehaviour],
+        fields: {
+            firstBottle: null,
+            secondBottle: null,
+            isCanControll: false
+        },
+        methods: {
+            /*GamePlayController.Update start.*/
+            Update: function () {
+if ( TRACE ) { TRACE( "GamePlayController#Update", this ); }
+
+                if (this.isCanControll) {
+                    if (UnityEngine.Input.GetMouseButtonDown(0)) {
+                        var mousePos = UnityEngine.Camera.main.ScreenToWorldPoint(UnityEngine.Input.mousePosition);
+                        var mousePos2D = UnityEngine.Vector3.FromVector2(new pc.Vec2( mousePos.x, mousePos.y ));
+                        var hit = UnityEngine.Physics2D.Raycast$2(UnityEngine.Vector2.FromVector3(mousePos2D), pc.Vec2.ZERO.clone());
+                        if (UnityEngine.Component.op_Inequality(hit.collider, null)) {
+                            var hitBottleContorller = hit.collider.GetComponent(BottleController);
+                            if (UnityEngine.MonoBehaviour.op_Inequality(hitBottleContorller, null) && hitBottleContorller.isCanController) {
+                                if (UnityEngine.MonoBehaviour.op_Equality(this.firstBottle, null)) {
+                                    this.firstBottle = hitBottleContorller;
+                                    this.firstBottle.BottleIsSelected();
+                                } else {
+                                    if (UnityEngine.MonoBehaviour.op_Equality(this.firstBottle, hitBottleContorller)) {
+                                        this.firstBottle.BottleIsUnSelected();
+                                        this.firstBottle = null;
+                                    } else {
+                                        this.secondBottle = hitBottleContorller;
+                                        this.firstBottle.otherBottleControllerRef = this.secondBottle;
+                                        this.firstBottle.UpdateTopColorValues();
+                                        this.secondBottle.UpdateTopColorValues();
+                                        if (this.secondBottle.FillBottleCheck(this.firstBottle.topColor.$clone())) {
+                                            this.firstBottle.TransferColor();
+                                            this.isCanControll = false;
+                                            this.firstBottle = null;
+                                            this.secondBottle = null;
+                                        } else {
+                                            this.firstBottle.BottleIsUnSelected();
+                                            this.firstBottle = null;
+                                            this.secondBottle = null;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            /*GamePlayController.Update end.*/
+
+
+        }
+    });
+    /*GamePlayController end.*/
     /**
      * @memberof System
      * @callback System.Func
@@ -3751,6 +4526,18 @@ if ( TRACE ) { TRACE( "EventDispatcherExtension#RemoveListener", this ); }
     /*HelperUtility start.*/
     Bridge.define("HelperUtility", {
         statics: {
+            fields: {
+                OffsetTopColor: 0,
+                OffsetDoneColor: 0
+            },
+            ctors: {
+                init: function () {
+if ( TRACE ) { TRACE( "HelperUtility#init", this ); }
+
+                    this.OffsetTopColor = 0.274509817;
+                    this.OffsetDoneColor = 0.431372553;
+                }
+            },
             methods: {
                 /*HelperUtility.DecimalRounding:static start.*/
                 /**
@@ -4397,6 +5184,7 @@ if ( TRACE ) { TRACE( "HelperUtility#GetRotateDirection", this ); }
                         clockWise = (360 - fromY) + toY;
                         counterClockWise = fromY - toY;
                     }
+
                     return (clockWise <= counterClockWise);
                 },
                 /*HelperUtility.GetRotateDirection:static end.*/
@@ -4411,7 +5199,6 @@ if ( TRACE ) { TRACE( "HelperUtility#LookAtToDirection", this ); }
                     var angle = Math.atan2(yTarget, xTarget) * UnityEngine.Mathf.Rad2Deg + 90;
 
                     var q = new pc.Quat().setFromAxisAngle( new pc.Vec3( 0, 0, 1 ), angle );
-
 
 
                     objLookAt.transform.rotation = new pc.Quat().slerp( objLookAt.transform.rotation, q, UnityEngine.Time.deltaTime * speedLockAt );
@@ -4471,6 +5258,7 @@ if ( TRACE ) { TRACE( "HelperUtility#RandomCustom", this ); }
                             }
                         }
                     }
+
                     return r;
                 },
                 /*HelperUtility.RandomCustom:static end.*/
@@ -4697,15 +5485,13 @@ if ( TRACE ) { TRACE( "HelperUtility#PosHandle", this ); }
                                                     break;
                                                 }
                                             }
-
-
-
                                         }
                                     }
                                 }
                             } else {
                                 result.add(numCount);
                             }
+
                             break;
                         }
 
@@ -4722,6 +5508,22 @@ if ( TRACE ) { TRACE( "HelperUtility#PosHandle", this ); }
                     return result;
                 },
                 /*HelperUtility.PosHandle:static end.*/
+
+                /*HelperUtility.GetSurfaceColor:static start.*/
+                GetSurfaceColor: function (color, isTop) {
+if ( TRACE ) { TRACE( "HelperUtility#GetSurfaceColor", this ); }
+
+                    if (isTop === void 0) { isTop = true; }
+                    var maxComponent = color.maxColorComponent;
+                    var r = color.r >= maxComponent ? 1.0 : color.r + (isTop ? HelperUtility.OffsetTopColor : HelperUtility.OffsetDoneColor);
+                    var g = color.g >= maxComponent ? 1.0 : color.g + (isTop ? HelperUtility.OffsetTopColor : HelperUtility.OffsetDoneColor);
+                    var b = color.b >= maxComponent ? 1.0 : color.b + (isTop ? HelperUtility.OffsetTopColor : HelperUtility.OffsetDoneColor);
+                    r = r > 1.0 ? 1.0 : r;
+                    g = g > 1.0 ? 1.0 : g;
+                    b = b > 1.0 ? 1.0 : b;
+                    return new pc.Color( r, g, b, color.a );
+                },
+                /*HelperUtility.GetSurfaceColor:static end.*/
 
 
             }
@@ -5008,6 +5810,7 @@ if ( TRACE ) { TRACE( "MMMaths#Sum", this ); }
                     for (var i = 0; i < thingsToAdd.length; i = (i + 1) | 0) {
                         result = (result + thingsToAdd[i]) | 0;
                     }
+
                     return result;
                 },
                 /*MMMaths.Sum:static end.*/
@@ -5076,6 +5879,7 @@ if ( TRACE ) { TRACE( "MMMaths#Approach", this ); }
                             return to;
                         }
                     }
+
                     return from;
                 },
                 /*MMMaths.Approach:static end.*/
@@ -5848,7 +6652,46 @@ if ( TRACE ) { TRACE( "AudioManager#StopSound", this ); }
     Bridge.define("GameManager1", {
         inherits: function () {
 if ( TRACE ) { TRACE( "GameManager1#inherits", this ); }
- return [Singleton$1(GameManager1)]; }
+ return [Singleton$1(GameManager1)]; },
+        fields: {
+            gamePlayController: null
+        },
+        methods: {
+            /*GameManager1.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "GameManager1#Start", this ); }
+
+                this.gamePlayController.isCanControll = true;
+                Luna.Unity.LifeCycle.GameStarted();
+            },
+            /*GameManager1.Start end.*/
+
+            /*GameManager1.EndGame start.*/
+            EndGame: function () {
+if ( TRACE ) { TRACE( "GameManager1#EndGame", this ); }
+
+                Luna.Unity.LifeCycle.GameEnded();
+            },
+            /*GameManager1.EndGame end.*/
+
+            /*GameManager1.InstallAllGame start.*/
+            InstallAllGame: function () {
+if ( TRACE ) { TRACE( "GameManager1#InstallAllGame", this ); }
+
+                Luna.Unity.Playable.InstallFullGame();
+            },
+            /*GameManager1.InstallAllGame end.*/
+
+            /*GameManager1.CalculateRatio start.*/
+            CalculateRatio: function (cam) {
+if ( TRACE ) { TRACE( "GameManager1#CalculateRatio", this ); }
+
+                return cam.pixelHeight / cam.pixelWidth;
+            },
+            /*GameManager1.CalculateRatio end.*/
+
+
+        }
     });
     /*GameManager1 end.*/
 
@@ -5890,10 +6733,22 @@ if ( TRACE ) { TRACE( "SingletonDontDestroyOnLoad$1#Awake", this ); }
 
     if ( MODULE_reflection ) {
     var $m = Bridge.setMetadata,
-        $n = ["System","UnityEngine","System.Collections.Generic","System.Collections","UnityEngine.UI","UnityEngine.Audio","DG.Tweening.Core","DG.Tweening","DG.Tweening.Plugins.Core.PathCore","System.Globalization","DG.Tweening.Plugins.Options"];
+        $n = ["System","UnityEngine","System.Collections","DG.Tweening","System.Collections.Generic","UnityEngine.UI","UnityEngine.Audio","DG.Tweening.Core","DG.Tweening.Plugins.Core.PathCore","System.Globalization","DG.Tweening.Plugins.Options"];
+
+    /*BottleController start.*/
+    $m("BottleController", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"AnimDoneLine","t":8,"sn":"AnimDoneLine","rt":$n[0].Void},{"a":2,"n":"BottleIsSelected","t":8,"sn":"BottleIsSelected","rt":$n[0].Void},{"a":2,"n":"BottleIsUnSelected","t":8,"sn":"BottleIsUnSelected","rt":$n[0].Void},{"a":1,"n":"CalculateRotationIndex","t":8,"pi":[{"n":"numberOfEmptySpaceInSecondBottle","pt":$n[0].Int32,"ps":0}],"sn":"CalculateRotationIndex","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":2,"n":"CheckCompleteBottle","t":8,"sn":"CheckCompleteBottle","rt":$n[0].Void},{"a":1,"n":"ChooseRotationAndDirection","t":8,"sn":"ChooseRotationAndDirection","rt":$n[0].Void},{"a":2,"n":"DisableAnimLine","t":8,"sn":"DisableAnimLine","rt":$n[0].Void},{"a":2,"n":"FillBottleCheck","t":8,"pi":[{"n":"colorToCheck","pt":$n[1].Color,"ps":0}],"sn":"FillBottleCheck","rt":$n[0].Boolean,"p":[$n[1].Color],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"FillUp","t":8,"pi":[{"n":"fillAmountToAdd","pt":$n[0].Single,"ps":0}],"sn":"FillUp","rt":$n[0].Void,"p":[$n[0].Single]},{"a":2,"n":"GetCurrentFill","t":8,"sn":"GetCurrentFill","rt":$n[0].Single,"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"IEBottleMoveY","t":8,"pi":[{"n":"y","pt":$n[0].Single,"ps":0}],"sn":"IEBottleMoveY","rt":$n[2].IEnumerator,"p":[$n[0].Single]},{"a":1,"n":"IEMoveBottle","t":8,"sn":"IEMoveBottle","rt":$n[2].IEnumerator},{"a":1,"n":"IEMoveBottleBack","t":8,"sn":"IEMoveBottleBack","rt":$n[2].IEnumerator},{"a":1,"n":"IERotateBottle","t":8,"sn":"IERotateBottle","rt":$n[2].IEnumerator},{"a":1,"n":"IERotateBottleBack","t":8,"sn":"IERotateBottleBack","rt":$n[2].IEnumerator},{"a":2,"n":"SetColorTop","t":8,"pi":[{"n":"color","pt":$n[1].Color,"ps":0}],"sn":"SetColorTop","rt":$n[0].Void,"p":[$n[1].Color]},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"TransferColor","t":8,"sn":"TransferColor","rt":$n[0].Void},{"a":1,"n":"UpdateColor","t":8,"sn":"UpdateColor","rt":$n[0].Void},{"a":2,"n":"UpdateTopColorValues","t":8,"sn":"UpdateTopColorValues","rt":$n[0].Void},{"a":1,"n":"_tweenAnimLine","t":4,"rt":$n[3].Tweener,"sn":"_tweenAnimLine"},{"a":2,"n":"arrColor","t":4,"rt":System.Array.type(UnityEngine.Color),"sn":"arrColor"},{"at":[new UnityEngine.Serialization.FormerlySerializedAsAttribute("fillAmount")],"a":2,"n":"arrFillAmount","t":4,"rt":$n[0].Array.type(System.Single),"sn":"arrFillAmount"},{"at":[new UnityEngine.Serialization.FormerlySerializedAsAttribute("rotationValues")],"a":2,"n":"arrRotationValues","t":4,"rt":$n[0].Array.type(System.Single),"sn":"arrRotationValues"},{"a":2,"n":"bottleMaskSR","t":4,"rt":$n[1].SpriteRenderer,"sn":"bottleMaskSR"},{"a":2,"n":"boxCollider2D","t":4,"rt":$n[1].BoxCollider2D,"sn":"boxCollider2D"},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"choosenPoint","t":4,"rt":$n[1].Transform,"sn":"choosenPoint"},{"a":1,"n":"directionMultiplier","t":4,"rt":$n[0].Single,"sn":"directionMultiplier","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"done","t":4,"rt":$n[1].GameObject,"sn":"done"},{"a":1,"n":"endPos","t":4,"rt":$n[1].Vector3,"sn":"endPos"},{"a":2,"n":"fillAmountCur","t":4,"rt":pc.AnimationCurve,"sn":"fillAmountCur"},{"a":2,"n":"fxBotNuoc","t":4,"rt":FxBubblesBottle,"sn":"fxBotNuoc"},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"isCanController","t":4,"rt":$n[0].Boolean,"sn":"isCanController","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"leftPoint","t":4,"rt":$n[1].Transform,"sn":"leftPoint"},{"a":2,"n":"lineRenderer","t":4,"rt":$n[1].LineRenderer,"sn":"lineRenderer"},{"a":2,"n":"lstWaterSurface","t":4,"rt":$n[4].List$1(UnityEngine.SpriteRenderer),"sn":"lstWaterSurface"},{"a":2,"n":"lstWaterSurfaceTop","t":4,"rt":$n[4].List$1(UnityEngine.SpriteRenderer),"sn":"lstWaterSurfaceTop"},{"at":[new UnityEngine.RangeAttribute(0.0, 4.0)],"a":2,"n":"numberOfColorInBottle","t":4,"rt":$n[0].Int32,"sn":"numberOfColorInBottle","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"numberOfColorToTransfer","t":4,"rt":$n[0].Int32,"sn":"numberOfColorToTransfer","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"numberOfTopColorLayers","t":4,"rt":$n[0].Int32,"sn":"numberOfTopColorLayers","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"originPos","t":4,"rt":$n[1].Vector3,"sn":"originPos"},{"at":[new UnityEngine.Serialization.FormerlySerializedAsAttribute("otherBottleController")],"a":2,"n":"otherBottleControllerRef","t":4,"rt":BottleController,"sn":"otherBottleControllerRef"},{"a":2,"n":"rightPoint","t":4,"rt":$n[1].Transform,"sn":"rightPoint"},{"a":1,"n":"rotationIndex","t":4,"rt":$n[0].Int32,"sn":"rotationIndex","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"rotationSpeedMultipiler","t":4,"rt":pc.AnimationCurve,"sn":"rotationSpeedMultipiler"},{"at":[new UnityEngine.Serialization.FormerlySerializedAsAttribute("twoScaleAndRotationMultiplierCur")],"a":2,"n":"scaleAndRotationMultiplierCur","t":4,"rt":pc.AnimationCurve,"sn":"scaleAndRotationMultiplierCur"},{"a":1,"n":"startPos","t":4,"rt":$n[1].Vector3,"sn":"startPos"},{"a":2,"n":"timeRotate","t":4,"rt":$n[0].Single,"sn":"timeRotate","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"topColor","t":4,"rt":$n[1].Color,"sn":"topColor"}]}; }, $n);
+    /*BottleController end.*/
+
+    /*FxBubblesBottle start.*/
+    $m("FxBubblesBottle", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"ActiveFx","t":8,"pi":[{"n":"isActive","pt":$n[0].Boolean,"ps":0},{"n":"ratioLifeTime","dv":0.0,"o":true,"pt":$n[0].Single,"ps":1}],"sn":"ActiveFx","rt":$n[0].Void,"p":[$n[0].Boolean,$n[0].Single]},{"a":2,"n":"UpdateFx","t":8,"pi":[{"n":"ratioLifeTime","dv":0.0,"o":true,"pt":$n[0].Single,"ps":0}],"sn":"UpdateFx","rt":$n[0].Void,"p":[$n[0].Single]},{"a":2,"n":"CamRatio","t":16,"rt":$n[0].Single,"g":{"a":2,"n":"get_CamRatio","t":8,"rt":$n[0].Single,"fg":"CamRatio","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"s":{"a":1,"n":"set_CamRatio","t":8,"p":[$n[0].Single],"rt":$n[0].Void,"fs":"CamRatio"},"fn":"CamRatio"},{"a":1,"n":"RatioDefault","t":4,"rt":$n[0].Single,"sn":"RatioDefault","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"fxBubbles","t":4,"rt":$n[1].ParticleSystem,"sn":"fxBubbles"},{"a":2,"n":"lifeTime","t":4,"rt":$n[0].Single,"sn":"lifeTime","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"backing":true,"n":"<CamRatio>k__BackingField","t":4,"rt":$n[0].Single,"sn":"CamRatio","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
+    /*FxBubblesBottle end.*/
+
+    /*GamePlayController start.*/
+    $m("GamePlayController", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"firstBottle","t":4,"rt":BottleController,"sn":"firstBottle"},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"isCanControll","t":4,"rt":$n[0].Boolean,"sn":"isCanControll","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"secondBottle","t":4,"rt":BottleController,"sn":"secondBottle"}]}; }, $n);
+    /*GamePlayController end.*/
 
     /*GameManager1 start.*/
-    $m("GameManager1", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"}]}; }, $n);
+    $m("GameManager1", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"CalculateRatio","t":8,"pi":[{"n":"cam","pt":$n[1].Camera,"ps":0}],"sn":"CalculateRatio","rt":$n[0].Single,"p":[$n[1].Camera],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"EndGame","t":8,"sn":"EndGame","rt":$n[0].Void},{"a":2,"n":"InstallAllGame","t":8,"sn":"InstallAllGame","rt":$n[0].Void},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"gamePlayController","t":4,"rt":GamePlayController,"sn":"gamePlayController"}]}; }, $n);
     /*GameManager1 end.*/
 
     /*AudioManager start.*/
@@ -5941,7 +6796,7 @@ if ( TRACE ) { TRACE( "SingletonDontDestroyOnLoad$1#Awake", this ); }
     /*DoTweenMoveUI end.*/
 
     /*EventDispatcher start.*/
-    $m("EventDispatcher", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":2,"n":"ClearAllListener","t":8,"sn":"ClearAllListener","rt":$n[0].Void},{"a":2,"n":"HasInstance","is":true,"t":8,"sn":"HasInstance","rt":$n[0].Boolean,"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"OnDestroy","t":8,"sn":"OnDestroy","rt":$n[0].Void},{"a":2,"n":"PostEvent","t":8,"pi":[{"n":"eventID","pt":EventID,"ps":0},{"n":"param","dv":null,"o":true,"pt":$n[0].Object,"ps":1}],"sn":"PostEvent","rt":$n[0].Void,"p":[EventID,$n[0].Object]},{"a":2,"n":"RegisterListener","t":8,"pi":[{"n":"eventID","pt":EventID,"ps":0},{"n":"callback","pt":Function,"ps":1}],"sn":"RegisterListener","rt":$n[0].Void,"p":[EventID,Function]},{"a":2,"n":"RemoveListener","t":8,"pi":[{"n":"eventID","pt":EventID,"ps":0},{"n":"callback","pt":Function,"ps":1}],"sn":"RemoveListener","rt":$n[0].Void,"p":[EventID,Function]},{"a":2,"n":"Instance","is":true,"t":16,"rt":EventDispatcher,"g":{"a":2,"n":"get_Instance","t":8,"rt":EventDispatcher,"fg":"Instance","is":true},"s":{"a":1,"n":"set_Instance","t":8,"p":[EventDispatcher],"rt":$n[0].Void,"fs":"Instance","is":true},"fn":"Instance"},{"a":1,"n":"_listeners","t":4,"rt":$n[2].Dictionary$2(EventID,Function),"sn":"_listeners"},{"a":1,"n":"s_instance","is":true,"t":4,"rt":EventDispatcher,"sn":"s_instance"}]}; }, $n);
+    $m("EventDispatcher", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":2,"n":"ClearAllListener","t":8,"sn":"ClearAllListener","rt":$n[0].Void},{"a":2,"n":"HasInstance","is":true,"t":8,"sn":"HasInstance","rt":$n[0].Boolean,"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"OnDestroy","t":8,"sn":"OnDestroy","rt":$n[0].Void},{"a":2,"n":"PostEvent","t":8,"pi":[{"n":"eventID","pt":EventID,"ps":0},{"n":"param","dv":null,"o":true,"pt":$n[0].Object,"ps":1}],"sn":"PostEvent","rt":$n[0].Void,"p":[EventID,$n[0].Object]},{"a":2,"n":"RegisterListener","t":8,"pi":[{"n":"eventID","pt":EventID,"ps":0},{"n":"callback","pt":Function,"ps":1}],"sn":"RegisterListener","rt":$n[0].Void,"p":[EventID,Function]},{"a":2,"n":"RemoveListener","t":8,"pi":[{"n":"eventID","pt":EventID,"ps":0},{"n":"callback","pt":Function,"ps":1}],"sn":"RemoveListener","rt":$n[0].Void,"p":[EventID,Function]},{"a":2,"n":"Instance","is":true,"t":16,"rt":EventDispatcher,"g":{"a":2,"n":"get_Instance","t":8,"rt":EventDispatcher,"fg":"Instance","is":true},"s":{"a":1,"n":"set_Instance","t":8,"p":[EventDispatcher],"rt":$n[0].Void,"fs":"Instance","is":true},"fn":"Instance"},{"a":1,"n":"_listeners","t":4,"rt":$n[4].Dictionary$2(EventID,Function),"sn":"_listeners"},{"a":1,"n":"s_instance","is":true,"t":4,"rt":EventDispatcher,"sn":"s_instance"}]}; }, $n);
     /*EventDispatcher end.*/
 
     /*EventDispatcherExtension start.*/
@@ -5953,7 +6808,7 @@ if ( TRACE ) { TRACE( "SingletonDontDestroyOnLoad$1#Awake", this ); }
     /*GlobalInstance end.*/
 
     /*HelperUtility start.*/
-    $m("HelperUtility", function () { return {"nested":[Function],"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOLocalRotateQuaternion","is":true,"t":8,"pi":[{"n":"endValue","pt":$n[1].Quaternion,"ps":0},{"n":"speedRotate","pt":$n[0].Single,"ps":1},{"n":"objLookAt","pt":$n[1].GameObject,"ps":2},{"n":"actionComplete","pt":Function,"ps":3}],"sn":"DOLocalRotateQuaternion","rt":$n[3].IEnumerator,"p":[$n[1].Quaternion,$n[0].Single,$n[1].GameObject,Function]},{"a":2,"n":"DecimalRounding","is":true,"t":8,"pi":[{"n":"Num","pt":$n[0].Single,"ps":0},{"n":"Round","pt":$n[0].Int32,"ps":1}],"sn":"DecimalRounding","rt":$n[0].Single,"p":[$n[0].Single,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"DisruptiveArrayObject","is":true,"t":8,"pi":[{"n":"array","pt":System.Array.type(System.Object),"ps":0}],"tpc":1,"tprm":["T"],"sn":"DisruptiveArrayObject","rt":System.Array.type(System.Object),"p":[System.Array.type(System.Object)]},{"a":2,"n":"DisruptiveList","is":true,"t":8,"pi":[{"n":"array","pt":$n[2].List$1(System.Object),"ps":0}],"tpc":1,"tprm":["T"],"sn":"DisruptiveList","rt":$n[2].List$1(System.Object),"p":[$n[2].List$1(System.Object)]},{"a":2,"n":"DisruptiveListObject","is":true,"t":8,"pi":[{"n":"array","pt":$n[2].List$1(System.Object),"ps":0}],"sn":"DisruptiveListObject$1","rt":$n[2].List$1(System.Object),"p":[$n[2].List$1(System.Object)]},{"a":2,"n":"DisruptiveListObject","is":true,"t":8,"pi":[{"n":"array","pt":$n[2].List$1(System.Object),"ps":0}],"tpc":1,"tprm":["T"],"sn":"DisruptiveListObject","rt":$n[2].List$1(System.Object),"p":[$n[2].List$1(System.Object)]},{"a":2,"n":"DisruptiveListSelf","is":true,"t":8,"pi":[{"n":"array","pt":$n[2].List$1(System.Object),"ps":0}],"tpc":1,"tprm":["T"],"sn":"DisruptiveListSelf","rt":$n[2].List$1(System.Object),"p":[$n[2].List$1(System.Object)]},{"a":2,"n":"GetDirectionFromAngle","is":true,"t":8,"pi":[{"n":"vectorP","pt":$n[1].Vector3,"ps":0},{"n":"angle","pt":$n[0].Single,"ps":1},{"n":"positionStart","pt":$n[1].Vector3,"ps":2}],"sn":"GetDirectionFromAngle","rt":$n[1].Vector3,"p":[$n[1].Vector3,$n[0].Single,$n[1].Vector3]},{"a":2,"n":"GetDirectionFromAngle_2","is":true,"t":8,"pi":[{"n":"vectorP","pt":$n[1].Vector3,"ps":0},{"n":"angle","pt":$n[0].Single,"ps":1},{"n":"positionStart","pt":$n[1].Vector3,"ps":2}],"sn":"GetDirectionFromAngle_2","rt":$n[1].Vector3,"p":[$n[1].Vector3,$n[0].Single,$n[1].Vector3]},{"a":2,"n":"GetPointDistanceFromObject","is":true,"t":8,"pi":[{"n":"distance","pt":$n[0].Single,"ps":0},{"n":"direction","pt":$n[1].Vector3,"ps":1},{"n":"fromPoint","pt":$n[1].Vector3,"ps":2}],"sn":"GetPointDistanceFromObject","rt":$n[1].Vector3,"p":[$n[0].Single,$n[1].Vector3,$n[1].Vector3]},{"a":2,"n":"GetRotateDirection","is":true,"t":8,"pi":[{"n":"from","pt":$n[1].Quaternion,"ps":0},{"n":"to","pt":$n[1].Quaternion,"ps":1}],"sn":"GetRotateDirection","rt":$n[0].Boolean,"p":[$n[1].Quaternion,$n[1].Quaternion],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"LookAtToDirection","is":true,"t":8,"pi":[{"n":"diretion","pt":$n[1].Vector3,"ps":0},{"n":"objLookAt","pt":$n[1].GameObject,"ps":1},{"n":"speedLockAt","dv":500.0,"o":true,"pt":$n[0].Single,"ps":2}],"sn":"LookAtToDirection","rt":$n[0].Void,"p":[$n[1].Vector3,$n[1].GameObject,$n[0].Single]},{"a":2,"n":"LookAtToDirectionAngleDetal","is":true,"t":8,"pi":[{"n":"diretion","pt":$n[1].Vector3,"ps":0},{"n":"objLookAt","pt":$n[1].GameObject,"ps":1},{"n":"AngleDetal","pt":$n[0].Single,"ps":2},{"n":"speedLockAt","dv":500.0,"o":true,"pt":$n[0].Single,"ps":3}],"sn":"LookAtToDirectionAngleDetal","rt":$n[0].Void,"p":[$n[1].Vector3,$n[1].GameObject,$n[0].Single,$n[0].Single]},{"a":2,"n":"LookAtToPosition","is":true,"t":8,"pi":[{"n":"position","pt":$n[1].Vector3,"ps":0},{"n":"objLookAt","pt":$n[1].GameObject,"ps":1},{"n":"speedRotate","dv":500.0,"o":true,"pt":$n[0].Single,"ps":2}],"sn":"LookAtToPosition","rt":$n[0].Void,"p":[$n[1].Vector3,$n[1].GameObject,$n[0].Single]},{"a":2,"n":"LookAtToPositionAngleDetal","is":true,"t":8,"pi":[{"n":"position","pt":$n[1].Vector3,"ps":0},{"n":"objLookAt","pt":$n[1].GameObject,"ps":1},{"n":"AngleDetal","pt":$n[0].Single,"ps":2},{"n":"speedRotate","dv":500.0,"o":true,"pt":$n[0].Single,"ps":3}],"sn":"LookAtToPositionAngleDetal","rt":$n[0].Void,"p":[$n[1].Vector3,$n[1].GameObject,$n[0].Single,$n[0].Single]},{"a":1,"n":"PosHandle","is":true,"t":8,"pi":[{"n":"numCount","pt":$n[0].Int32,"ps":0},{"n":"MaxERow","pt":$n[0].Int32,"ps":1}],"sn":"PosHandle","rt":$n[2].List$1(System.Int32),"p":[$n[0].Int32,$n[0].Int32]},{"a":2,"n":"RandomCustom","is":true,"t":8,"pi":[{"n":"first","pt":$n[0].Int32,"ps":0},{"n":"last","pt":$n[0].Int32,"ps":1},{"n":"diff","pt":$n[2].List$1(System.Int32),"ps":2}],"sn":"RandomCustom","rt":$n[0].Int32,"p":[$n[0].Int32,$n[0].Int32,$n[2].List$1(System.Int32)],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"RandomUnduplicated","is":true,"t":8,"pi":[{"n":"diff","pt":$n[2].List$1(System.Int32),"ps":0},{"n":"oldValues","ip":true,"pt":$n[0].Array.type(System.Int32),"ps":1}],"sn":"RandomUnduplicated","rt":$n[0].Int32,"p":[$n[2].List$1(System.Int32),$n[0].Array.type(System.Int32)],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"RandomUnduplicated","is":true,"t":8,"pi":[{"n":"oldValue","pt":$n[0].Int32,"ps":0},{"n":"diff","pt":$n[2].List$1(System.Int32),"ps":1}],"sn":"RandomUnduplicated$1","rt":$n[0].Int32,"p":[$n[0].Int32,$n[2].List$1(System.Int32)],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"SelectionSortList","is":true,"t":8,"pi":[{"n":"A","pt":$n[2].List$1(System.Object),"ps":0},{"n":"compareElementList","pt":Function,"ps":1}],"sn":"SelectionSortList","rt":$n[2].List$1(System.Object),"p":[$n[2].List$1(System.Object),Function]},{"a":2,"n":"SetPos","is":true,"t":8,"pi":[{"n":"numCount","pt":$n[0].Int32,"ps":0},{"n":"MaxERow","pt":$n[0].Int32,"ps":1}],"sn":"SetPos","rt":$n[2].List$1(System.Int32),"p":[$n[0].Int32,$n[0].Int32]},{"a":2,"n":"StartAction","is":true,"t":8,"pi":[{"n":"action","pt":Function,"ps":0},{"n":"condition","pt":Function,"ps":1}],"sn":"StartAction","rt":$n[3].IEnumerator,"p":[Function,Function]},{"a":2,"n":"StartAction","is":true,"t":8,"pi":[{"n":"action","pt":Function,"ps":0},{"n":"time","pt":$n[0].Single,"ps":1}],"sn":"StartAction$1","rt":$n[3].IEnumerator,"p":[Function,$n[0].Single]},{"a":2,"n":"StartActionNotUseCorutines","is":true,"t":8,"pi":[{"n":"action","pt":Function,"ps":0},{"n":"time","pt":$n[0].Single,"ps":1}],"sn":"StartActionNotUseCorutines","rt":$n[0].Void,"p":[Function,$n[0].Single]},{"a":2,"n":"StartActionRealTime","is":true,"t":8,"pi":[{"n":"action","pt":Function,"ps":0},{"n":"time","pt":$n[0].Single,"ps":1}],"sn":"StartActionRealTime","rt":$n[3].IEnumerator,"p":[Function,$n[0].Single]},{"a":2,"n":"StartThread","is":true,"t":8,"pi":[{"n":"action","pt":Function,"ps":0},{"n":"timeToStop","pt":$n[0].Single,"ps":1},{"n":"actionStop","dv":null,"o":true,"pt":Function,"ps":2}],"sn":"StartThread$1","rt":$n[3].IEnumerator,"p":[Function,$n[0].Single,Function]},{"a":2,"n":"StartThread","is":true,"t":8,"pi":[{"n":"action","pt":Function,"ps":0},{"n":"conditionStop","pt":Function,"ps":1},{"n":"actionStop","dv":null,"o":true,"pt":Function,"ps":2},{"n":"time","dv":0.01,"o":true,"pt":$n[0].Single,"ps":3}],"sn":"StartThread","rt":$n[3].IEnumerator,"p":[Function,Function,Function,$n[0].Single]}]}; }, $n);
+    $m("HelperUtility", function () { return {"nested":[Function],"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOLocalRotateQuaternion","is":true,"t":8,"pi":[{"n":"endValue","pt":$n[1].Quaternion,"ps":0},{"n":"speedRotate","pt":$n[0].Single,"ps":1},{"n":"objLookAt","pt":$n[1].GameObject,"ps":2},{"n":"actionComplete","pt":Function,"ps":3}],"sn":"DOLocalRotateQuaternion","rt":$n[2].IEnumerator,"p":[$n[1].Quaternion,$n[0].Single,$n[1].GameObject,Function]},{"a":2,"n":"DecimalRounding","is":true,"t":8,"pi":[{"n":"Num","pt":$n[0].Single,"ps":0},{"n":"Round","pt":$n[0].Int32,"ps":1}],"sn":"DecimalRounding","rt":$n[0].Single,"p":[$n[0].Single,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"DisruptiveArrayObject","is":true,"t":8,"pi":[{"n":"array","pt":System.Array.type(System.Object),"ps":0}],"tpc":1,"tprm":["T"],"sn":"DisruptiveArrayObject","rt":System.Array.type(System.Object),"p":[System.Array.type(System.Object)]},{"a":2,"n":"DisruptiveList","is":true,"t":8,"pi":[{"n":"array","pt":$n[4].List$1(System.Object),"ps":0}],"tpc":1,"tprm":["T"],"sn":"DisruptiveList","rt":$n[4].List$1(System.Object),"p":[$n[4].List$1(System.Object)]},{"a":2,"n":"DisruptiveListObject","is":true,"t":8,"pi":[{"n":"array","pt":$n[4].List$1(System.Object),"ps":0}],"sn":"DisruptiveListObject$1","rt":$n[4].List$1(System.Object),"p":[$n[4].List$1(System.Object)]},{"a":2,"n":"DisruptiveListObject","is":true,"t":8,"pi":[{"n":"array","pt":$n[4].List$1(System.Object),"ps":0}],"tpc":1,"tprm":["T"],"sn":"DisruptiveListObject","rt":$n[4].List$1(System.Object),"p":[$n[4].List$1(System.Object)]},{"a":2,"n":"DisruptiveListSelf","is":true,"t":8,"pi":[{"n":"array","pt":$n[4].List$1(System.Object),"ps":0}],"tpc":1,"tprm":["T"],"sn":"DisruptiveListSelf","rt":$n[4].List$1(System.Object),"p":[$n[4].List$1(System.Object)]},{"a":2,"n":"GetDirectionFromAngle","is":true,"t":8,"pi":[{"n":"vectorP","pt":$n[1].Vector3,"ps":0},{"n":"angle","pt":$n[0].Single,"ps":1},{"n":"positionStart","pt":$n[1].Vector3,"ps":2}],"sn":"GetDirectionFromAngle","rt":$n[1].Vector3,"p":[$n[1].Vector3,$n[0].Single,$n[1].Vector3]},{"a":2,"n":"GetDirectionFromAngle_2","is":true,"t":8,"pi":[{"n":"vectorP","pt":$n[1].Vector3,"ps":0},{"n":"angle","pt":$n[0].Single,"ps":1},{"n":"positionStart","pt":$n[1].Vector3,"ps":2}],"sn":"GetDirectionFromAngle_2","rt":$n[1].Vector3,"p":[$n[1].Vector3,$n[0].Single,$n[1].Vector3]},{"a":2,"n":"GetPointDistanceFromObject","is":true,"t":8,"pi":[{"n":"distance","pt":$n[0].Single,"ps":0},{"n":"direction","pt":$n[1].Vector3,"ps":1},{"n":"fromPoint","pt":$n[1].Vector3,"ps":2}],"sn":"GetPointDistanceFromObject","rt":$n[1].Vector3,"p":[$n[0].Single,$n[1].Vector3,$n[1].Vector3]},{"a":2,"n":"GetRotateDirection","is":true,"t":8,"pi":[{"n":"from","pt":$n[1].Quaternion,"ps":0},{"n":"to","pt":$n[1].Quaternion,"ps":1}],"sn":"GetRotateDirection","rt":$n[0].Boolean,"p":[$n[1].Quaternion,$n[1].Quaternion],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"GetSurfaceColor","is":true,"t":8,"pi":[{"n":"color","pt":$n[1].Color,"ps":0},{"n":"isTop","dv":true,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"GetSurfaceColor","rt":$n[1].Color,"p":[$n[1].Color,$n[0].Boolean]},{"a":2,"n":"LookAtToDirection","is":true,"t":8,"pi":[{"n":"diretion","pt":$n[1].Vector3,"ps":0},{"n":"objLookAt","pt":$n[1].GameObject,"ps":1},{"n":"speedLockAt","dv":500.0,"o":true,"pt":$n[0].Single,"ps":2}],"sn":"LookAtToDirection","rt":$n[0].Void,"p":[$n[1].Vector3,$n[1].GameObject,$n[0].Single]},{"a":2,"n":"LookAtToDirectionAngleDetal","is":true,"t":8,"pi":[{"n":"diretion","pt":$n[1].Vector3,"ps":0},{"n":"objLookAt","pt":$n[1].GameObject,"ps":1},{"n":"AngleDetal","pt":$n[0].Single,"ps":2},{"n":"speedLockAt","dv":500.0,"o":true,"pt":$n[0].Single,"ps":3}],"sn":"LookAtToDirectionAngleDetal","rt":$n[0].Void,"p":[$n[1].Vector3,$n[1].GameObject,$n[0].Single,$n[0].Single]},{"a":2,"n":"LookAtToPosition","is":true,"t":8,"pi":[{"n":"position","pt":$n[1].Vector3,"ps":0},{"n":"objLookAt","pt":$n[1].GameObject,"ps":1},{"n":"speedRotate","dv":500.0,"o":true,"pt":$n[0].Single,"ps":2}],"sn":"LookAtToPosition","rt":$n[0].Void,"p":[$n[1].Vector3,$n[1].GameObject,$n[0].Single]},{"a":2,"n":"LookAtToPositionAngleDetal","is":true,"t":8,"pi":[{"n":"position","pt":$n[1].Vector3,"ps":0},{"n":"objLookAt","pt":$n[1].GameObject,"ps":1},{"n":"AngleDetal","pt":$n[0].Single,"ps":2},{"n":"speedRotate","dv":500.0,"o":true,"pt":$n[0].Single,"ps":3}],"sn":"LookAtToPositionAngleDetal","rt":$n[0].Void,"p":[$n[1].Vector3,$n[1].GameObject,$n[0].Single,$n[0].Single]},{"a":1,"n":"PosHandle","is":true,"t":8,"pi":[{"n":"numCount","pt":$n[0].Int32,"ps":0},{"n":"MaxERow","pt":$n[0].Int32,"ps":1}],"sn":"PosHandle","rt":$n[4].List$1(System.Int32),"p":[$n[0].Int32,$n[0].Int32]},{"a":2,"n":"RandomCustom","is":true,"t":8,"pi":[{"n":"first","pt":$n[0].Int32,"ps":0},{"n":"last","pt":$n[0].Int32,"ps":1},{"n":"diff","pt":$n[4].List$1(System.Int32),"ps":2}],"sn":"RandomCustom","rt":$n[0].Int32,"p":[$n[0].Int32,$n[0].Int32,$n[4].List$1(System.Int32)],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"RandomUnduplicated","is":true,"t":8,"pi":[{"n":"diff","pt":$n[4].List$1(System.Int32),"ps":0},{"n":"oldValues","ip":true,"pt":$n[0].Array.type(System.Int32),"ps":1}],"sn":"RandomUnduplicated","rt":$n[0].Int32,"p":[$n[4].List$1(System.Int32),$n[0].Array.type(System.Int32)],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"RandomUnduplicated","is":true,"t":8,"pi":[{"n":"oldValue","pt":$n[0].Int32,"ps":0},{"n":"diff","pt":$n[4].List$1(System.Int32),"ps":1}],"sn":"RandomUnduplicated$1","rt":$n[0].Int32,"p":[$n[0].Int32,$n[4].List$1(System.Int32)],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"SelectionSortList","is":true,"t":8,"pi":[{"n":"A","pt":$n[4].List$1(System.Object),"ps":0},{"n":"compareElementList","pt":Function,"ps":1}],"sn":"SelectionSortList","rt":$n[4].List$1(System.Object),"p":[$n[4].List$1(System.Object),Function]},{"a":2,"n":"SetPos","is":true,"t":8,"pi":[{"n":"numCount","pt":$n[0].Int32,"ps":0},{"n":"MaxERow","pt":$n[0].Int32,"ps":1}],"sn":"SetPos","rt":$n[4].List$1(System.Int32),"p":[$n[0].Int32,$n[0].Int32]},{"a":2,"n":"StartAction","is":true,"t":8,"pi":[{"n":"action","pt":Function,"ps":0},{"n":"condition","pt":Function,"ps":1}],"sn":"StartAction","rt":$n[2].IEnumerator,"p":[Function,Function]},{"a":2,"n":"StartAction","is":true,"t":8,"pi":[{"n":"action","pt":Function,"ps":0},{"n":"time","pt":$n[0].Single,"ps":1}],"sn":"StartAction$1","rt":$n[2].IEnumerator,"p":[Function,$n[0].Single]},{"a":2,"n":"StartActionNotUseCorutines","is":true,"t":8,"pi":[{"n":"action","pt":Function,"ps":0},{"n":"time","pt":$n[0].Single,"ps":1}],"sn":"StartActionNotUseCorutines","rt":$n[0].Void,"p":[Function,$n[0].Single]},{"a":2,"n":"StartActionRealTime","is":true,"t":8,"pi":[{"n":"action","pt":Function,"ps":0},{"n":"time","pt":$n[0].Single,"ps":1}],"sn":"StartActionRealTime","rt":$n[2].IEnumerator,"p":[Function,$n[0].Single]},{"a":2,"n":"StartThread","is":true,"t":8,"pi":[{"n":"action","pt":Function,"ps":0},{"n":"timeToStop","pt":$n[0].Single,"ps":1},{"n":"actionStop","dv":null,"o":true,"pt":Function,"ps":2}],"sn":"StartThread$1","rt":$n[2].IEnumerator,"p":[Function,$n[0].Single,Function]},{"a":2,"n":"StartThread","is":true,"t":8,"pi":[{"n":"action","pt":Function,"ps":0},{"n":"conditionStop","pt":Function,"ps":1},{"n":"actionStop","dv":null,"o":true,"pt":Function,"ps":2},{"n":"time","dv":0.01,"o":true,"pt":$n[0].Single,"ps":3}],"sn":"StartThread","rt":$n[2].IEnumerator,"p":[Function,Function,Function,$n[0].Single]},{"a":1,"n":"OffsetDoneColor","is":true,"t":4,"rt":$n[0].Single,"sn":"OffsetDoneColor","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"OffsetTopColor","is":true,"t":4,"rt":$n[0].Single,"sn":"OffsetTopColor","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
     /*HelperUtility end.*/
 
     /*SelfDefine start.*/
@@ -5973,7 +6828,7 @@ if ( TRACE ) { TRACE( "SingletonDontDestroyOnLoad$1#Awake", this ); }
     /*LookAtTarget end.*/
 
     /*LunaPool start.*/
-    $m("LunaPool", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":2,"n":"Despawn","t":8,"pi":[{"n":"obj","pt":$n[1].GameObject,"ps":0}],"sn":"Despawn","rt":$n[0].Void,"p":[$n[1].GameObject]},{"a":2,"n":"Spawn","t":8,"pi":[{"n":"prefab","pt":$n[1].GameObject,"ps":0},{"n":"position","pt":$n[1].Vector3,"ps":1},{"n":"rotation","pt":$n[1].Quaternion,"ps":2}],"sn":"Spawn","rt":$n[1].GameObject,"p":[$n[1].GameObject,$n[1].Vector3,$n[1].Quaternion]},{"a":2,"n":"Instance","is":true,"t":16,"rt":LunaPool,"g":{"a":2,"n":"get_Instance","t":8,"rt":LunaPool,"fg":"Instance","is":true},"s":{"a":1,"n":"set_Instance","t":8,"p":[LunaPool],"rt":$n[0].Void,"fs":"Instance","is":true},"fn":"Instance"},{"a":1,"n":"POOL_SIZE","is":true,"t":4,"rt":$n[0].Int32,"sn":"POOL_SIZE","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"pooledObjects","t":4,"rt":$n[2].Dictionary$2(UnityEngine.GameObject,System.Collections.Generic.Queue$1(UnityEngine.GameObject)),"sn":"pooledObjects"},{"a":1,"backing":true,"n":"<Instance>k__BackingField","is":true,"t":4,"rt":LunaPool,"sn":"Instance"}]}; }, $n);
+    $m("LunaPool", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":2,"n":"Despawn","t":8,"pi":[{"n":"obj","pt":$n[1].GameObject,"ps":0}],"sn":"Despawn","rt":$n[0].Void,"p":[$n[1].GameObject]},{"a":2,"n":"Spawn","t":8,"pi":[{"n":"prefab","pt":$n[1].GameObject,"ps":0},{"n":"position","pt":$n[1].Vector3,"ps":1},{"n":"rotation","pt":$n[1].Quaternion,"ps":2}],"sn":"Spawn","rt":$n[1].GameObject,"p":[$n[1].GameObject,$n[1].Vector3,$n[1].Quaternion]},{"a":2,"n":"Instance","is":true,"t":16,"rt":LunaPool,"g":{"a":2,"n":"get_Instance","t":8,"rt":LunaPool,"fg":"Instance","is":true},"s":{"a":1,"n":"set_Instance","t":8,"p":[LunaPool],"rt":$n[0].Void,"fs":"Instance","is":true},"fn":"Instance"},{"a":1,"n":"POOL_SIZE","is":true,"t":4,"rt":$n[0].Int32,"sn":"POOL_SIZE","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"pooledObjects","t":4,"rt":$n[4].Dictionary$2(UnityEngine.GameObject,System.Collections.Generic.Queue$1(UnityEngine.GameObject)),"sn":"pooledObjects"},{"a":1,"backing":true,"n":"<Instance>k__BackingField","is":true,"t":4,"rt":LunaPool,"sn":"Instance"}]}; }, $n);
     /*LunaPool end.*/
 
     /*RotateObject start.*/
@@ -5981,11 +6836,11 @@ if ( TRACE ) { TRACE( "SingletonDontDestroyOnLoad$1#Awake", this ); }
     /*RotateObject end.*/
 
     /*SimplePool start.*/
-    $m("SimplePool", function () { return {"nested":[SimplePool.Pool],"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"ClearPool","is":true,"t":8,"sn":"ClearPool","rt":$n[0].Void},{"a":2,"n":"Despawn","is":true,"t":8,"pi":[{"n":"obj","pt":$n[1].GameObject,"ps":0}],"sn":"Despawn","rt":$n[0].Void,"p":[$n[1].GameObject]},{"a":2,"n":"GetStackCount","is":true,"t":8,"pi":[{"n":"prefab","pt":$n[1].GameObject,"ps":0}],"sn":"GetStackCount","rt":$n[0].Int32,"p":[$n[1].GameObject],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"Init","is":true,"t":8,"pi":[{"n":"prefab","dv":null,"o":true,"pt":$n[1].GameObject,"ps":0},{"n":"qty","dv":3,"o":true,"pt":$n[0].Int32,"ps":1}],"sn":"Init","rt":$n[0].Void,"p":[$n[1].GameObject,$n[0].Int32]},{"a":2,"n":"PoolPreLoad","is":true,"t":8,"pi":[{"n":"prefab","pt":$n[1].GameObject,"ps":0},{"n":"qty","pt":$n[0].Int32,"ps":1},{"n":"newParent","dv":null,"o":true,"pt":$n[1].Transform,"ps":2}],"sn":"PoolPreLoad","rt":$n[0].Void,"p":[$n[1].GameObject,$n[0].Int32,$n[1].Transform]},{"a":2,"n":"Preload","is":true,"t":8,"pi":[{"n":"prefab","pt":$n[1].GameObject,"ps":0},{"n":"qty","dv":1,"o":true,"pt":$n[0].Int32,"ps":1},{"n":"newParent","dv":null,"o":true,"pt":$n[1].Transform,"ps":2}],"sn":"Preload","rt":System.Array.type(UnityEngine.GameObject),"p":[$n[1].GameObject,$n[0].Int32,$n[1].Transform]},{"a":2,"n":"Spawn","is":true,"t":8,"pi":[{"n":"prefab","pt":System.Object,"ps":0}],"tpc":1,"tprm":["T"],"sn":"Spawn","rt":System.Object,"p":[System.Object]},{"a":2,"n":"Spawn","is":true,"t":8,"pi":[{"n":"prefab","pt":$n[1].GameObject,"ps":0}],"sn":"Spawn$2","rt":$n[1].GameObject,"p":[$n[1].GameObject]},{"a":2,"n":"Spawn","is":true,"t":8,"pi":[{"n":"prefab","pt":System.Object,"ps":0},{"n":"pos","pt":$n[1].Vector3,"ps":1},{"n":"rot","pt":$n[1].Quaternion,"ps":2}],"tpc":1,"tprm":["T"],"sn":"Spawn$1","rt":System.Object,"p":[System.Object,$n[1].Vector3,$n[1].Quaternion]},{"a":2,"n":"Spawn","is":true,"t":8,"pi":[{"n":"prefab","pt":$n[1].GameObject,"ps":0},{"n":"pos","pt":$n[1].Vector3,"ps":1},{"n":"rot","pt":$n[1].Quaternion,"ps":2}],"sn":"Spawn$3","rt":$n[1].GameObject,"p":[$n[1].GameObject,$n[1].Vector3,$n[1].Quaternion]},{"a":1,"n":"DEFAULT_POOL_SIZE","is":true,"t":4,"rt":$n[0].Int32,"sn":"DEFAULT_POOL_SIZE","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"_pools","is":true,"t":4,"rt":$n[2].Dictionary$2(System.Int32,SimplePool.Pool),"sn":"_pools"}]}; }, $n);
+    $m("SimplePool", function () { return {"nested":[SimplePool.Pool],"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"ClearPool","is":true,"t":8,"sn":"ClearPool","rt":$n[0].Void},{"a":2,"n":"Despawn","is":true,"t":8,"pi":[{"n":"obj","pt":$n[1].GameObject,"ps":0}],"sn":"Despawn","rt":$n[0].Void,"p":[$n[1].GameObject]},{"a":2,"n":"GetStackCount","is":true,"t":8,"pi":[{"n":"prefab","pt":$n[1].GameObject,"ps":0}],"sn":"GetStackCount","rt":$n[0].Int32,"p":[$n[1].GameObject],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"Init","is":true,"t":8,"pi":[{"n":"prefab","dv":null,"o":true,"pt":$n[1].GameObject,"ps":0},{"n":"qty","dv":3,"o":true,"pt":$n[0].Int32,"ps":1}],"sn":"Init","rt":$n[0].Void,"p":[$n[1].GameObject,$n[0].Int32]},{"a":2,"n":"PoolPreLoad","is":true,"t":8,"pi":[{"n":"prefab","pt":$n[1].GameObject,"ps":0},{"n":"qty","pt":$n[0].Int32,"ps":1},{"n":"newParent","dv":null,"o":true,"pt":$n[1].Transform,"ps":2}],"sn":"PoolPreLoad","rt":$n[0].Void,"p":[$n[1].GameObject,$n[0].Int32,$n[1].Transform]},{"a":2,"n":"Preload","is":true,"t":8,"pi":[{"n":"prefab","pt":$n[1].GameObject,"ps":0},{"n":"qty","dv":1,"o":true,"pt":$n[0].Int32,"ps":1},{"n":"newParent","dv":null,"o":true,"pt":$n[1].Transform,"ps":2}],"sn":"Preload","rt":System.Array.type(UnityEngine.GameObject),"p":[$n[1].GameObject,$n[0].Int32,$n[1].Transform]},{"a":2,"n":"Spawn","is":true,"t":8,"pi":[{"n":"prefab","pt":System.Object,"ps":0}],"tpc":1,"tprm":["T"],"sn":"Spawn","rt":System.Object,"p":[System.Object]},{"a":2,"n":"Spawn","is":true,"t":8,"pi":[{"n":"prefab","pt":$n[1].GameObject,"ps":0}],"sn":"Spawn$2","rt":$n[1].GameObject,"p":[$n[1].GameObject]},{"a":2,"n":"Spawn","is":true,"t":8,"pi":[{"n":"prefab","pt":System.Object,"ps":0},{"n":"pos","pt":$n[1].Vector3,"ps":1},{"n":"rot","pt":$n[1].Quaternion,"ps":2}],"tpc":1,"tprm":["T"],"sn":"Spawn$1","rt":System.Object,"p":[System.Object,$n[1].Vector3,$n[1].Quaternion]},{"a":2,"n":"Spawn","is":true,"t":8,"pi":[{"n":"prefab","pt":$n[1].GameObject,"ps":0},{"n":"pos","pt":$n[1].Vector3,"ps":1},{"n":"rot","pt":$n[1].Quaternion,"ps":2}],"sn":"Spawn$3","rt":$n[1].GameObject,"p":[$n[1].GameObject,$n[1].Vector3,$n[1].Quaternion]},{"a":1,"n":"DEFAULT_POOL_SIZE","is":true,"t":4,"rt":$n[0].Int32,"sn":"DEFAULT_POOL_SIZE","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"_pools","is":true,"t":4,"rt":$n[4].Dictionary$2(System.Int32,SimplePool.Pool),"sn":"_pools"}]}; }, $n);
     /*SimplePool end.*/
 
     /*SimplePool+Pool start.*/
-    $m("SimplePool.Pool", function () { return {"td":SimplePool,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[1].GameObject,$n[0].Int32],"pi":[{"n":"prefab","pt":$n[1].GameObject,"ps":0},{"n":"initialQty","pt":$n[0].Int32,"ps":1}],"sn":"ctor"},{"a":2,"n":"Despawn","t":8,"pi":[{"n":"obj","pt":$n[1].GameObject,"ps":0}],"sn":"Despawn","rt":$n[0].Void,"p":[$n[1].GameObject]},{"a":2,"n":"Preload","t":8,"pi":[{"n":"initialQty","pt":$n[0].Int32,"ps":0},{"n":"parent","dv":null,"o":true,"pt":$n[1].Transform,"ps":1}],"sn":"Preload","rt":$n[0].Void,"p":[$n[0].Int32,$n[1].Transform]},{"a":2,"n":"Spawn","t":8,"pi":[{"n":"pos","pt":$n[1].Vector3,"ps":0},{"n":"rot","pt":$n[1].Quaternion,"ps":1}],"tpc":1,"tprm":["T"],"sn":"Spawn","rt":System.Object,"p":[$n[1].Vector3,$n[1].Quaternion]},{"a":2,"n":"Spawn","t":8,"pi":[{"n":"pos","pt":$n[1].Vector3,"ps":0},{"n":"rot","pt":$n[1].Quaternion,"ps":1}],"sn":"Spawn$1","rt":$n[1].GameObject,"p":[$n[1].Vector3,$n[1].Quaternion]},{"a":2,"n":"StackCount","t":16,"rt":$n[0].Int32,"g":{"a":2,"n":"get_StackCount","t":8,"rt":$n[0].Int32,"fg":"StackCount","box":function ($v) { return Bridge.box($v, System.Int32);}},"fn":"StackCount"},{"a":2,"n":"MemberIDs","t":4,"rt":$n[2].HashSet$1(System.Int32),"sn":"MemberIDs","ro":true},{"a":1,"n":"_inactive","t":4,"rt":$n[2].Queue$1(UnityEngine.GameObject),"sn":"_inactive","ro":true},{"a":1,"n":"_nextId","t":4,"rt":$n[0].Int32,"sn":"_nextId","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"_prefab","t":4,"rt":$n[1].GameObject,"sn":"_prefab","ro":true}]}; }, $n);
+    $m("SimplePool.Pool", function () { return {"td":SimplePool,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[1].GameObject,$n[0].Int32],"pi":[{"n":"prefab","pt":$n[1].GameObject,"ps":0},{"n":"initialQty","pt":$n[0].Int32,"ps":1}],"sn":"ctor"},{"a":2,"n":"Despawn","t":8,"pi":[{"n":"obj","pt":$n[1].GameObject,"ps":0}],"sn":"Despawn","rt":$n[0].Void,"p":[$n[1].GameObject]},{"a":2,"n":"Preload","t":8,"pi":[{"n":"initialQty","pt":$n[0].Int32,"ps":0},{"n":"parent","dv":null,"o":true,"pt":$n[1].Transform,"ps":1}],"sn":"Preload","rt":$n[0].Void,"p":[$n[0].Int32,$n[1].Transform]},{"a":2,"n":"Spawn","t":8,"pi":[{"n":"pos","pt":$n[1].Vector3,"ps":0},{"n":"rot","pt":$n[1].Quaternion,"ps":1}],"tpc":1,"tprm":["T"],"sn":"Spawn","rt":System.Object,"p":[$n[1].Vector3,$n[1].Quaternion]},{"a":2,"n":"Spawn","t":8,"pi":[{"n":"pos","pt":$n[1].Vector3,"ps":0},{"n":"rot","pt":$n[1].Quaternion,"ps":1}],"sn":"Spawn$1","rt":$n[1].GameObject,"p":[$n[1].Vector3,$n[1].Quaternion]},{"a":2,"n":"StackCount","t":16,"rt":$n[0].Int32,"g":{"a":2,"n":"get_StackCount","t":8,"rt":$n[0].Int32,"fg":"StackCount","box":function ($v) { return Bridge.box($v, System.Int32);}},"fn":"StackCount"},{"a":2,"n":"MemberIDs","t":4,"rt":$n[4].HashSet$1(System.Int32),"sn":"MemberIDs","ro":true},{"a":1,"n":"_inactive","t":4,"rt":$n[4].Queue$1(UnityEngine.GameObject),"sn":"_inactive","ro":true},{"a":1,"n":"_nextId","t":4,"rt":$n[0].Int32,"sn":"_nextId","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"_prefab","t":4,"rt":$n[1].GameObject,"sn":"_prefab","ro":true}]}; }, $n);
     /*SimplePool+Pool end.*/
 
     /*SingletonWithouMono$1 start.*/
@@ -6005,7 +6860,7 @@ if ( TRACE ) { TRACE( "SingletonDontDestroyOnLoad$1#Awake", this ); }
     /*SingletonDontDestroyOnLoad$1 end.*/
 
     /*SlidingNumber start.*/
-    $m("SlidingNumber", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"AddToNumber","t":8,"pi":[{"n":"value","pt":$n[0].Single,"ps":0}],"sn":"AddToNumber","rt":$n[0].Void,"p":[$n[0].Single]},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"animationTime","t":4,"rt":$n[0].Single,"sn":"animationTime","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"currentNumber","t":4,"rt":$n[0].Single,"sn":"currentNumber","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"desiredNumber","t":4,"rt":$n[0].Single,"sn":"desiredNumber","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"initialNumber","t":4,"rt":$n[0].Single,"sn":"initialNumber","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"txtBrain","t":4,"rt":$n[4].Text,"sn":"txtBrain"}]}; }, $n);
+    $m("SlidingNumber", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"AddToNumber","t":8,"pi":[{"n":"value","pt":$n[0].Single,"ps":0}],"sn":"AddToNumber","rt":$n[0].Void,"p":[$n[0].Single]},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"animationTime","t":4,"rt":$n[0].Single,"sn":"animationTime","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"currentNumber","t":4,"rt":$n[0].Single,"sn":"currentNumber","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"desiredNumber","t":4,"rt":$n[0].Single,"sn":"desiredNumber","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"initialNumber","t":4,"rt":$n[0].Single,"sn":"initialNumber","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"txtBrain","t":4,"rt":$n[5].Text,"sn":"txtBrain"}]}; }, $n);
     /*SlidingNumber end.*/
 
     /*UpdateSkinnedMeshWindow start.*/
@@ -6021,67 +6876,67 @@ if ( TRACE ) { TRACE( "SingletonDontDestroyOnLoad$1#Awake", this ); }
     /*IAmAnEmptyScriptJustToMakeCodelessProjectsCompileProperty end.*/
 
     /*DG.Tweening.DOTweenModuleAudio start.*/
-    $m("DG.Tweening.DOTweenModuleAudio", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOComplete","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].AudioMixer,"ps":0},{"n":"withCallbacks","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"DOComplete","rt":$n[0].Int32,"p":[$n[5].AudioMixer,$n[0].Boolean],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].AudioSource,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade","rt":$n[6].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[1].AudioSource,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFlip","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].AudioMixer,"ps":0}],"sn":"DOFlip","rt":$n[0].Int32,"p":[$n[5].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOGoto","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].AudioMixer,"ps":0},{"n":"to","pt":$n[0].Single,"ps":1},{"n":"andPlay","dv":false,"o":true,"pt":$n[0].Boolean,"ps":2}],"sn":"DOGoto","rt":$n[0].Int32,"p":[$n[5].AudioMixer,$n[0].Single,$n[0].Boolean],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOKill","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].AudioMixer,"ps":0},{"n":"complete","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"DOKill","rt":$n[0].Int32,"p":[$n[5].AudioMixer,$n[0].Boolean],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOPause","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].AudioMixer,"ps":0}],"sn":"DOPause","rt":$n[0].Int32,"p":[$n[5].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOPitch","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].AudioSource,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOPitch","rt":$n[6].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[1].AudioSource,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOPlay","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].AudioMixer,"ps":0}],"sn":"DOPlay","rt":$n[0].Int32,"p":[$n[5].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOPlayBackwards","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].AudioMixer,"ps":0}],"sn":"DOPlayBackwards","rt":$n[0].Int32,"p":[$n[5].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOPlayForward","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].AudioMixer,"ps":0}],"sn":"DOPlayForward","rt":$n[0].Int32,"p":[$n[5].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DORestart","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].AudioMixer,"ps":0}],"sn":"DORestart","rt":$n[0].Int32,"p":[$n[5].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DORewind","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].AudioMixer,"ps":0}],"sn":"DORewind","rt":$n[0].Int32,"p":[$n[5].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOSetFloat","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].AudioMixer,"ps":0},{"n":"floatName","pt":$n[0].String,"ps":1},{"n":"endValue","pt":$n[0].Single,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3}],"sn":"DOSetFloat","rt":$n[6].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[5].AudioMixer,$n[0].String,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOSmoothRewind","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].AudioMixer,"ps":0}],"sn":"DOSmoothRewind","rt":$n[0].Int32,"p":[$n[5].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOTogglePause","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].AudioMixer,"ps":0}],"sn":"DOTogglePause","rt":$n[0].Int32,"p":[$n[5].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}}]}; }, $n);
+    $m("DG.Tweening.DOTweenModuleAudio", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOComplete","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].AudioMixer,"ps":0},{"n":"withCallbacks","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"DOComplete","rt":$n[0].Int32,"p":[$n[6].AudioMixer,$n[0].Boolean],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].AudioSource,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade","rt":$n[7].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[1].AudioSource,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFlip","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].AudioMixer,"ps":0}],"sn":"DOFlip","rt":$n[0].Int32,"p":[$n[6].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOGoto","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].AudioMixer,"ps":0},{"n":"to","pt":$n[0].Single,"ps":1},{"n":"andPlay","dv":false,"o":true,"pt":$n[0].Boolean,"ps":2}],"sn":"DOGoto","rt":$n[0].Int32,"p":[$n[6].AudioMixer,$n[0].Single,$n[0].Boolean],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOKill","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].AudioMixer,"ps":0},{"n":"complete","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"DOKill","rt":$n[0].Int32,"p":[$n[6].AudioMixer,$n[0].Boolean],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOPause","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].AudioMixer,"ps":0}],"sn":"DOPause","rt":$n[0].Int32,"p":[$n[6].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOPitch","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].AudioSource,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOPitch","rt":$n[7].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[1].AudioSource,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOPlay","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].AudioMixer,"ps":0}],"sn":"DOPlay","rt":$n[0].Int32,"p":[$n[6].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOPlayBackwards","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].AudioMixer,"ps":0}],"sn":"DOPlayBackwards","rt":$n[0].Int32,"p":[$n[6].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOPlayForward","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].AudioMixer,"ps":0}],"sn":"DOPlayForward","rt":$n[0].Int32,"p":[$n[6].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DORestart","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].AudioMixer,"ps":0}],"sn":"DORestart","rt":$n[0].Int32,"p":[$n[6].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DORewind","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].AudioMixer,"ps":0}],"sn":"DORewind","rt":$n[0].Int32,"p":[$n[6].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOSetFloat","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].AudioMixer,"ps":0},{"n":"floatName","pt":$n[0].String,"ps":1},{"n":"endValue","pt":$n[0].Single,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3}],"sn":"DOSetFloat","rt":$n[7].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[6].AudioMixer,$n[0].String,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOSmoothRewind","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].AudioMixer,"ps":0}],"sn":"DOSmoothRewind","rt":$n[0].Int32,"p":[$n[6].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOTogglePause","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].AudioMixer,"ps":0}],"sn":"DOTogglePause","rt":$n[0].Int32,"p":[$n[6].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}}]}; }, $n);
     /*DG.Tweening.DOTweenModuleAudio end.*/
 
     /*DG.Tweening.DOTweenModulePhysics start.*/
-    $m("DG.Tweening.DOTweenModulePhysics", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOJump","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[1].Vector3,"ps":1},{"n":"jumpPower","pt":$n[0].Single,"ps":2},{"n":"numJumps","pt":$n[0].Int32,"ps":3},{"n":"duration","pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOJump","rt":$n[7].Sequence,"p":[$n[1].Rigidbody,$n[1].Vector3,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean]},{"a":4,"n":"DOLocalPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"path","pt":$n[8].Path,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathMode","dv":1,"o":true,"pt":$n[7].PathMode,"ps":3}],"sn":"DOLocalPath$1","rt":$n[6].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody,$n[8].Path,$n[0].Single,$n[7].PathMode]},{"a":2,"n":"DOLocalPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"path","pt":System.Array.type(UnityEngine.Vector3),"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathType","dv":0,"o":true,"pt":$n[7].PathType,"ps":3},{"n":"pathMode","dv":1,"o":true,"pt":$n[7].PathMode,"ps":4},{"n":"resolution","dv":10,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"gizmoColor","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Color),"ps":6}],"sn":"DOLocalPath","rt":$n[6].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody,System.Array.type(UnityEngine.Vector3),$n[0].Single,$n[7].PathType,$n[7].PathMode,$n[0].Int32,$n[0].Nullable$1(UnityEngine.Color)]},{"a":2,"n":"DOLookAt","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"towards","pt":$n[1].Vector3,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"axisConstraint","dv":0,"o":true,"pt":$n[7].AxisConstraint,"ps":3},{"n":"up","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Vector3),"ps":4}],"sn":"DOLookAt","rt":$n[6].TweenerCore$3(UnityEngine.Quaternion,UnityEngine.Vector3,DG.Tweening.Plugins.Options.QuaternionOptions),"p":[$n[1].Rigidbody,$n[1].Vector3,$n[0].Single,$n[7].AxisConstraint,$n[0].Nullable$1(UnityEngine.Vector3)]},{"a":2,"n":"DOMove","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[1].Vector3,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMove","rt":$n[6].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody,$n[1].Vector3,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMoveX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMoveX","rt":$n[6].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMoveY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMoveY","rt":$n[6].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMoveZ","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMoveZ","rt":$n[6].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":4,"n":"DOPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"path","pt":$n[8].Path,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathMode","dv":1,"o":true,"pt":$n[7].PathMode,"ps":3}],"sn":"DOPath$1","rt":$n[6].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody,$n[8].Path,$n[0].Single,$n[7].PathMode]},{"a":2,"n":"DOPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"path","pt":System.Array.type(UnityEngine.Vector3),"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathType","dv":0,"o":true,"pt":$n[7].PathType,"ps":3},{"n":"pathMode","dv":1,"o":true,"pt":$n[7].PathMode,"ps":4},{"n":"resolution","dv":10,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"gizmoColor","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Color),"ps":6}],"sn":"DOPath","rt":$n[6].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody,System.Array.type(UnityEngine.Vector3),$n[0].Single,$n[7].PathType,$n[7].PathMode,$n[0].Int32,$n[0].Nullable$1(UnityEngine.Color)]},{"a":2,"n":"DORotate","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[1].Vector3,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"mode","dv":0,"o":true,"pt":$n[7].RotateMode,"ps":3}],"sn":"DORotate","rt":$n[6].TweenerCore$3(UnityEngine.Quaternion,UnityEngine.Vector3,DG.Tweening.Plugins.Options.QuaternionOptions),"p":[$n[1].Rigidbody,$n[1].Vector3,$n[0].Single,$n[7].RotateMode]}]}; }, $n);
+    $m("DG.Tweening.DOTweenModulePhysics", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOJump","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[1].Vector3,"ps":1},{"n":"jumpPower","pt":$n[0].Single,"ps":2},{"n":"numJumps","pt":$n[0].Int32,"ps":3},{"n":"duration","pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOJump","rt":$n[3].Sequence,"p":[$n[1].Rigidbody,$n[1].Vector3,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean]},{"a":4,"n":"DOLocalPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"path","pt":$n[8].Path,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathMode","dv":1,"o":true,"pt":$n[3].PathMode,"ps":3}],"sn":"DOLocalPath$1","rt":$n[7].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody,$n[8].Path,$n[0].Single,$n[3].PathMode]},{"a":2,"n":"DOLocalPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"path","pt":System.Array.type(UnityEngine.Vector3),"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathType","dv":0,"o":true,"pt":$n[3].PathType,"ps":3},{"n":"pathMode","dv":1,"o":true,"pt":$n[3].PathMode,"ps":4},{"n":"resolution","dv":10,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"gizmoColor","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Color),"ps":6}],"sn":"DOLocalPath","rt":$n[7].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody,System.Array.type(UnityEngine.Vector3),$n[0].Single,$n[3].PathType,$n[3].PathMode,$n[0].Int32,$n[0].Nullable$1(UnityEngine.Color)]},{"a":2,"n":"DOLookAt","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"towards","pt":$n[1].Vector3,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"axisConstraint","dv":0,"o":true,"pt":$n[3].AxisConstraint,"ps":3},{"n":"up","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Vector3),"ps":4}],"sn":"DOLookAt","rt":$n[7].TweenerCore$3(UnityEngine.Quaternion,UnityEngine.Vector3,DG.Tweening.Plugins.Options.QuaternionOptions),"p":[$n[1].Rigidbody,$n[1].Vector3,$n[0].Single,$n[3].AxisConstraint,$n[0].Nullable$1(UnityEngine.Vector3)]},{"a":2,"n":"DOMove","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[1].Vector3,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMove","rt":$n[7].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody,$n[1].Vector3,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMoveX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMoveX","rt":$n[7].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMoveY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMoveY","rt":$n[7].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMoveZ","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMoveZ","rt":$n[7].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":4,"n":"DOPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"path","pt":$n[8].Path,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathMode","dv":1,"o":true,"pt":$n[3].PathMode,"ps":3}],"sn":"DOPath$1","rt":$n[7].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody,$n[8].Path,$n[0].Single,$n[3].PathMode]},{"a":2,"n":"DOPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"path","pt":System.Array.type(UnityEngine.Vector3),"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathType","dv":0,"o":true,"pt":$n[3].PathType,"ps":3},{"n":"pathMode","dv":1,"o":true,"pt":$n[3].PathMode,"ps":4},{"n":"resolution","dv":10,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"gizmoColor","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Color),"ps":6}],"sn":"DOPath","rt":$n[7].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody,System.Array.type(UnityEngine.Vector3),$n[0].Single,$n[3].PathType,$n[3].PathMode,$n[0].Int32,$n[0].Nullable$1(UnityEngine.Color)]},{"a":2,"n":"DORotate","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[1].Vector3,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"mode","dv":0,"o":true,"pt":$n[3].RotateMode,"ps":3}],"sn":"DORotate","rt":$n[7].TweenerCore$3(UnityEngine.Quaternion,UnityEngine.Vector3,DG.Tweening.Plugins.Options.QuaternionOptions),"p":[$n[1].Rigidbody,$n[1].Vector3,$n[0].Single,$n[3].RotateMode]}]}; }, $n);
     /*DG.Tweening.DOTweenModulePhysics end.*/
 
     /*DG.Tweening.DOTweenModulePhysics2D start.*/
-    $m("DG.Tweening.DOTweenModulePhysics2D", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOJump","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"jumpPower","pt":$n[0].Single,"ps":2},{"n":"numJumps","pt":$n[0].Int32,"ps":3},{"n":"duration","pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOJump","rt":$n[7].Sequence,"p":[$n[1].Rigidbody2D,$n[1].Vector2,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean]},{"a":4,"n":"DOLocalPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"path","pt":$n[8].Path,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathMode","dv":1,"o":true,"pt":$n[7].PathMode,"ps":3}],"sn":"DOLocalPath$1","rt":$n[6].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody2D,$n[8].Path,$n[0].Single,$n[7].PathMode]},{"a":2,"n":"DOLocalPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"path","pt":System.Array.type(UnityEngine.Vector2),"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathType","dv":0,"o":true,"pt":$n[7].PathType,"ps":3},{"n":"pathMode","dv":1,"o":true,"pt":$n[7].PathMode,"ps":4},{"n":"resolution","dv":10,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"gizmoColor","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Color),"ps":6}],"sn":"DOLocalPath","rt":$n[6].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody2D,System.Array.type(UnityEngine.Vector2),$n[0].Single,$n[7].PathType,$n[7].PathMode,$n[0].Int32,$n[0].Nullable$1(UnityEngine.Color)]},{"a":2,"n":"DOMove","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMove","rt":$n[6].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody2D,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMoveX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMoveX","rt":$n[6].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody2D,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMoveY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMoveY","rt":$n[6].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody2D,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":4,"n":"DOPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"path","pt":$n[8].Path,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathMode","dv":1,"o":true,"pt":$n[7].PathMode,"ps":3}],"sn":"DOPath$1","rt":$n[6].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody2D,$n[8].Path,$n[0].Single,$n[7].PathMode]},{"a":2,"n":"DOPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"path","pt":System.Array.type(UnityEngine.Vector2),"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathType","dv":0,"o":true,"pt":$n[7].PathType,"ps":3},{"n":"pathMode","dv":1,"o":true,"pt":$n[7].PathMode,"ps":4},{"n":"resolution","dv":10,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"gizmoColor","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Color),"ps":6}],"sn":"DOPath","rt":$n[6].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody2D,System.Array.type(UnityEngine.Vector2),$n[0].Single,$n[7].PathType,$n[7].PathMode,$n[0].Int32,$n[0].Nullable$1(UnityEngine.Color)]},{"a":2,"n":"DORotate","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DORotate","rt":$n[6].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[1].Rigidbody2D,$n[0].Single,$n[0].Single]}]}; }, $n);
+    $m("DG.Tweening.DOTweenModulePhysics2D", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOJump","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"jumpPower","pt":$n[0].Single,"ps":2},{"n":"numJumps","pt":$n[0].Int32,"ps":3},{"n":"duration","pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOJump","rt":$n[3].Sequence,"p":[$n[1].Rigidbody2D,$n[1].Vector2,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean]},{"a":4,"n":"DOLocalPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"path","pt":$n[8].Path,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathMode","dv":1,"o":true,"pt":$n[3].PathMode,"ps":3}],"sn":"DOLocalPath$1","rt":$n[7].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody2D,$n[8].Path,$n[0].Single,$n[3].PathMode]},{"a":2,"n":"DOLocalPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"path","pt":System.Array.type(UnityEngine.Vector2),"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathType","dv":0,"o":true,"pt":$n[3].PathType,"ps":3},{"n":"pathMode","dv":1,"o":true,"pt":$n[3].PathMode,"ps":4},{"n":"resolution","dv":10,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"gizmoColor","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Color),"ps":6}],"sn":"DOLocalPath","rt":$n[7].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody2D,System.Array.type(UnityEngine.Vector2),$n[0].Single,$n[3].PathType,$n[3].PathMode,$n[0].Int32,$n[0].Nullable$1(UnityEngine.Color)]},{"a":2,"n":"DOMove","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMove","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody2D,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMoveX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMoveX","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody2D,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMoveY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMoveY","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody2D,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":4,"n":"DOPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"path","pt":$n[8].Path,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathMode","dv":1,"o":true,"pt":$n[3].PathMode,"ps":3}],"sn":"DOPath$1","rt":$n[7].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody2D,$n[8].Path,$n[0].Single,$n[3].PathMode]},{"a":2,"n":"DOPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"path","pt":System.Array.type(UnityEngine.Vector2),"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathType","dv":0,"o":true,"pt":$n[3].PathType,"ps":3},{"n":"pathMode","dv":1,"o":true,"pt":$n[3].PathMode,"ps":4},{"n":"resolution","dv":10,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"gizmoColor","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Color),"ps":6}],"sn":"DOPath","rt":$n[7].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody2D,System.Array.type(UnityEngine.Vector2),$n[0].Single,$n[3].PathType,$n[3].PathMode,$n[0].Int32,$n[0].Nullable$1(UnityEngine.Color)]},{"a":2,"n":"DORotate","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DORotate","rt":$n[7].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[1].Rigidbody2D,$n[0].Single,$n[0].Single]}]}; }, $n);
     /*DG.Tweening.DOTweenModulePhysics2D end.*/
 
     /*DG.Tweening.DOTweenModuleSprite start.*/
-    $m("DG.Tweening.DOTweenModuleSprite", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOBlendableColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].SpriteRenderer,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOBlendableColor","rt":$n[7].Tweener,"p":[$n[1].SpriteRenderer,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].SpriteRenderer,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor","rt":$n[6].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[1].SpriteRenderer,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].SpriteRenderer,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade","rt":$n[6].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[1].SpriteRenderer,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOGradientColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].SpriteRenderer,"ps":0},{"n":"gradient","pt":pc.ColorGradient,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOGradientColor","rt":$n[7].Sequence,"p":[$n[1].SpriteRenderer,pc.ColorGradient,$n[0].Single]}]}; }, $n);
+    $m("DG.Tweening.DOTweenModuleSprite", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOBlendableColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].SpriteRenderer,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOBlendableColor","rt":$n[3].Tweener,"p":[$n[1].SpriteRenderer,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].SpriteRenderer,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor","rt":$n[7].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[1].SpriteRenderer,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].SpriteRenderer,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade","rt":$n[7].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[1].SpriteRenderer,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOGradientColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].SpriteRenderer,"ps":0},{"n":"gradient","pt":pc.ColorGradient,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOGradientColor","rt":$n[3].Sequence,"p":[$n[1].SpriteRenderer,pc.ColorGradient,$n[0].Single]}]}; }, $n);
     /*DG.Tweening.DOTweenModuleSprite end.*/
 
     /*DG.Tweening.DOTweenModuleUI start.*/
-    $m("DG.Tweening.DOTweenModuleUI", function () { return {"nested":[$n[7].DOTweenModuleUI.Utils],"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOAnchorMax","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorMax","rt":$n[6].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorMin","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorMin","rt":$n[6].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos","rt":$n[6].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3D","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector3,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3D","rt":$n[6].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector3,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3DX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3DX","rt":$n[6].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3DY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3DY","rt":$n[6].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3DZ","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3DZ","rt":$n[6].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPosX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPosX","rt":$n[6].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPosY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPosY","rt":$n[6].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOBlendableColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Graphic,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOBlendableColor","rt":$n[7].Tweener,"p":[$n[4].Graphic,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOBlendableColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Image,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOBlendableColor$1","rt":$n[7].Tweener,"p":[$n[4].Image,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOBlendableColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Text,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOBlendableColor$2","rt":$n[7].Tweener,"p":[$n[4].Text,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Graphic,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor","rt":$n[6].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[4].Graphic,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Image,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor$1","rt":$n[6].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[4].Image,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Outline,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor$2","rt":$n[6].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[4].Outline,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Text,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor$3","rt":$n[6].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[4].Text,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOCounter","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Text,"ps":0},{"n":"fromValue","pt":$n[0].Int32,"ps":1},{"n":"endValue","pt":$n[0].Int32,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3},{"n":"addThousandsSeparator","dv":true,"o":true,"pt":$n[0].Boolean,"ps":4},{"n":"culture","dv":null,"o":true,"pt":$n[9].CultureInfo,"ps":5}],"sn":"DOCounter","rt":$n[6].TweenerCore$3(System.Int32,System.Int32,DG.Tweening.Plugins.Options.NoOptions),"p":[$n[4].Text,$n[0].Int32,$n[0].Int32,$n[0].Single,$n[0].Boolean,$n[9].CultureInfo]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].CanvasGroup,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade","rt":$n[6].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[1].CanvasGroup,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Graphic,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$1","rt":$n[6].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[4].Graphic,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Image,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$2","rt":$n[6].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[4].Image,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Outline,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$3","rt":$n[6].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[4].Outline,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Text,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$4","rt":$n[6].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[4].Text,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFillAmount","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Image,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFillAmount","rt":$n[6].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[4].Image,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFlexibleSize","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].LayoutElement,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOFlexibleSize","rt":$n[6].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[4].LayoutElement,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOGradientColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Image,"ps":0},{"n":"gradient","pt":pc.ColorGradient,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOGradientColor","rt":$n[7].Sequence,"p":[$n[4].Image,pc.ColorGradient,$n[0].Single]},{"a":2,"n":"DOHorizontalNormalizedPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].ScrollRect,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOHorizontalNormalizedPos","rt":$n[7].Tweener,"p":[$n[4].ScrollRect,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOJumpAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"jumpPower","pt":$n[0].Single,"ps":2},{"n":"numJumps","pt":$n[0].Int32,"ps":3},{"n":"duration","pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOJumpAnchorPos","rt":$n[7].Sequence,"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMinSize","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].LayoutElement,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMinSize","rt":$n[6].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[4].LayoutElement,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DONormalizedPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].ScrollRect,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DONormalizedPos","rt":$n[7].Tweener,"p":[$n[4].ScrollRect,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOPivot","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOPivot","rt":$n[6].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single]},{"a":2,"n":"DOPivotX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOPivotX","rt":$n[6].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOPivotY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOPivotY","rt":$n[6].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOPreferredSize","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].LayoutElement,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOPreferredSize","rt":$n[6].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[4].LayoutElement,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOPunchAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"punch","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"vibrato","dv":10,"o":true,"pt":$n[0].Int32,"ps":3},{"n":"elasticity","dv":1.0,"o":true,"pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOPunchAnchorPos","rt":$n[7].Tweener,"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOScale","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Outline,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOScale","rt":$n[6].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[4].Outline,$n[1].Vector2,$n[0].Single]},{"a":2,"n":"DOShakeAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"duration","pt":$n[0].Single,"ps":1},{"n":"strength","dv":100.0,"o":true,"pt":$n[0].Single,"ps":2},{"n":"vibrato","dv":10,"o":true,"pt":$n[0].Int32,"ps":3},{"n":"randomness","dv":90.0,"o":true,"pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5},{"n":"fadeOut","dv":true,"o":true,"pt":$n[0].Boolean,"ps":6},{"n":"randomnessMode","dv":0,"o":true,"pt":$n[7].ShakeRandomnessMode,"ps":7}],"sn":"DOShakeAnchorPos","rt":$n[7].Tweener,"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean,$n[0].Boolean,$n[7].ShakeRandomnessMode]},{"a":2,"n":"DOShakeAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"duration","pt":$n[0].Single,"ps":1},{"n":"strength","pt":$n[1].Vector2,"ps":2},{"n":"vibrato","dv":10,"o":true,"pt":$n[0].Int32,"ps":3},{"n":"randomness","dv":90.0,"o":true,"pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5},{"n":"fadeOut","dv":true,"o":true,"pt":$n[0].Boolean,"ps":6},{"n":"randomnessMode","dv":0,"o":true,"pt":$n[7].ShakeRandomnessMode,"ps":7}],"sn":"DOShakeAnchorPos$1","rt":$n[7].Tweener,"p":[$n[1].RectTransform,$n[0].Single,$n[1].Vector2,$n[0].Int32,$n[0].Single,$n[0].Boolean,$n[0].Boolean,$n[7].ShakeRandomnessMode]},{"a":2,"n":"DOShapeCircle","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"center","pt":$n[1].Vector2,"ps":1},{"n":"endValueDegrees","pt":$n[0].Single,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3},{"n":"relativeCenter","dv":false,"o":true,"pt":$n[0].Boolean,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOShapeCircle","rt":$n[6].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.CircleOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Single,$n[0].Boolean,$n[0].Boolean]},{"a":2,"n":"DOSizeDelta","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOSizeDelta","rt":$n[6].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOText","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Text,"ps":0},{"n":"endValue","pt":$n[0].String,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"richTextEnabled","dv":true,"o":true,"pt":$n[0].Boolean,"ps":3},{"n":"scrambleMode","dv":0,"o":true,"pt":$n[7].ScrambleMode,"ps":4},{"n":"scrambleChars","dv":null,"o":true,"pt":$n[0].String,"ps":5}],"sn":"DOText","rt":$n[6].TweenerCore$3(System.String,System.String,DG.Tweening.Plugins.Options.StringOptions),"p":[$n[4].Text,$n[0].String,$n[0].Single,$n[0].Boolean,$n[7].ScrambleMode,$n[0].String]},{"a":2,"n":"DOValue","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Slider,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOValue","rt":$n[6].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[4].Slider,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOVerticalNormalizedPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].ScrollRect,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOVerticalNormalizedPos","rt":$n[7].Tweener,"p":[$n[4].ScrollRect,$n[0].Single,$n[0].Single,$n[0].Boolean]}]}; }, $n);
+    $m("DG.Tweening.DOTweenModuleUI", function () { return {"nested":[$n[3].DOTweenModuleUI.Utils],"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOAnchorMax","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorMax","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorMin","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorMin","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3D","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector3,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3D","rt":$n[7].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector3,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3DX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3DX","rt":$n[7].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3DY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3DY","rt":$n[7].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3DZ","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3DZ","rt":$n[7].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPosX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPosX","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPosY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPosY","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOBlendableColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].Graphic,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOBlendableColor","rt":$n[3].Tweener,"p":[$n[5].Graphic,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOBlendableColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].Image,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOBlendableColor$1","rt":$n[3].Tweener,"p":[$n[5].Image,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOBlendableColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].Text,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOBlendableColor$2","rt":$n[3].Tweener,"p":[$n[5].Text,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].Graphic,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor","rt":$n[7].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[5].Graphic,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].Image,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor$1","rt":$n[7].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[5].Image,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].Outline,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor$2","rt":$n[7].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[5].Outline,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].Text,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor$3","rt":$n[7].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[5].Text,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOCounter","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].Text,"ps":0},{"n":"fromValue","pt":$n[0].Int32,"ps":1},{"n":"endValue","pt":$n[0].Int32,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3},{"n":"addThousandsSeparator","dv":true,"o":true,"pt":$n[0].Boolean,"ps":4},{"n":"culture","dv":null,"o":true,"pt":$n[9].CultureInfo,"ps":5}],"sn":"DOCounter","rt":$n[7].TweenerCore$3(System.Int32,System.Int32,DG.Tweening.Plugins.Options.NoOptions),"p":[$n[5].Text,$n[0].Int32,$n[0].Int32,$n[0].Single,$n[0].Boolean,$n[9].CultureInfo]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].CanvasGroup,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade","rt":$n[7].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[1].CanvasGroup,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].Graphic,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$1","rt":$n[7].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[5].Graphic,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].Image,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$2","rt":$n[7].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[5].Image,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].Outline,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$3","rt":$n[7].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[5].Outline,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].Text,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$4","rt":$n[7].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[5].Text,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFillAmount","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].Image,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFillAmount","rt":$n[7].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[5].Image,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFlexibleSize","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].LayoutElement,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOFlexibleSize","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[5].LayoutElement,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOGradientColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].Image,"ps":0},{"n":"gradient","pt":pc.ColorGradient,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOGradientColor","rt":$n[3].Sequence,"p":[$n[5].Image,pc.ColorGradient,$n[0].Single]},{"a":2,"n":"DOHorizontalNormalizedPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].ScrollRect,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOHorizontalNormalizedPos","rt":$n[3].Tweener,"p":[$n[5].ScrollRect,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOJumpAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"jumpPower","pt":$n[0].Single,"ps":2},{"n":"numJumps","pt":$n[0].Int32,"ps":3},{"n":"duration","pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOJumpAnchorPos","rt":$n[3].Sequence,"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMinSize","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].LayoutElement,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMinSize","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[5].LayoutElement,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DONormalizedPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].ScrollRect,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DONormalizedPos","rt":$n[3].Tweener,"p":[$n[5].ScrollRect,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOPivot","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOPivot","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single]},{"a":2,"n":"DOPivotX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOPivotX","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOPivotY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOPivotY","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOPreferredSize","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].LayoutElement,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOPreferredSize","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[5].LayoutElement,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOPunchAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"punch","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"vibrato","dv":10,"o":true,"pt":$n[0].Int32,"ps":3},{"n":"elasticity","dv":1.0,"o":true,"pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOPunchAnchorPos","rt":$n[3].Tweener,"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOScale","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].Outline,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOScale","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[5].Outline,$n[1].Vector2,$n[0].Single]},{"a":2,"n":"DOShakeAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"duration","pt":$n[0].Single,"ps":1},{"n":"strength","dv":100.0,"o":true,"pt":$n[0].Single,"ps":2},{"n":"vibrato","dv":10,"o":true,"pt":$n[0].Int32,"ps":3},{"n":"randomness","dv":90.0,"o":true,"pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5},{"n":"fadeOut","dv":true,"o":true,"pt":$n[0].Boolean,"ps":6},{"n":"randomnessMode","dv":0,"o":true,"pt":$n[3].ShakeRandomnessMode,"ps":7}],"sn":"DOShakeAnchorPos","rt":$n[3].Tweener,"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean,$n[0].Boolean,$n[3].ShakeRandomnessMode]},{"a":2,"n":"DOShakeAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"duration","pt":$n[0].Single,"ps":1},{"n":"strength","pt":$n[1].Vector2,"ps":2},{"n":"vibrato","dv":10,"o":true,"pt":$n[0].Int32,"ps":3},{"n":"randomness","dv":90.0,"o":true,"pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5},{"n":"fadeOut","dv":true,"o":true,"pt":$n[0].Boolean,"ps":6},{"n":"randomnessMode","dv":0,"o":true,"pt":$n[3].ShakeRandomnessMode,"ps":7}],"sn":"DOShakeAnchorPos$1","rt":$n[3].Tweener,"p":[$n[1].RectTransform,$n[0].Single,$n[1].Vector2,$n[0].Int32,$n[0].Single,$n[0].Boolean,$n[0].Boolean,$n[3].ShakeRandomnessMode]},{"a":2,"n":"DOShapeCircle","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"center","pt":$n[1].Vector2,"ps":1},{"n":"endValueDegrees","pt":$n[0].Single,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3},{"n":"relativeCenter","dv":false,"o":true,"pt":$n[0].Boolean,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOShapeCircle","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.CircleOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Single,$n[0].Boolean,$n[0].Boolean]},{"a":2,"n":"DOSizeDelta","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOSizeDelta","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOText","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].Text,"ps":0},{"n":"endValue","pt":$n[0].String,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"richTextEnabled","dv":true,"o":true,"pt":$n[0].Boolean,"ps":3},{"n":"scrambleMode","dv":0,"o":true,"pt":$n[3].ScrambleMode,"ps":4},{"n":"scrambleChars","dv":null,"o":true,"pt":$n[0].String,"ps":5}],"sn":"DOText","rt":$n[7].TweenerCore$3(System.String,System.String,DG.Tweening.Plugins.Options.StringOptions),"p":[$n[5].Text,$n[0].String,$n[0].Single,$n[0].Boolean,$n[3].ScrambleMode,$n[0].String]},{"a":2,"n":"DOValue","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].Slider,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOValue","rt":$n[7].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[5].Slider,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOVerticalNormalizedPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].ScrollRect,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOVerticalNormalizedPos","rt":$n[3].Tweener,"p":[$n[5].ScrollRect,$n[0].Single,$n[0].Single,$n[0].Boolean]}]}; }, $n);
     /*DG.Tweening.DOTweenModuleUI end.*/
 
     /*DG.Tweening.DOTweenModuleUI+Utils start.*/
-    $m("DG.Tweening.DOTweenModuleUI.Utils", function () { return {"td":$n[7].DOTweenModuleUI,"att":1048962,"a":2,"s":true,"m":[{"a":2,"n":"SwitchToRectTransform","is":true,"t":8,"pi":[{"n":"from","pt":$n[1].RectTransform,"ps":0},{"n":"to","pt":$n[1].RectTransform,"ps":1}],"sn":"SwitchToRectTransform","rt":$n[1].Vector2,"p":[$n[1].RectTransform,$n[1].RectTransform]}]}; }, $n);
+    $m("DG.Tweening.DOTweenModuleUI.Utils", function () { return {"td":$n[3].DOTweenModuleUI,"att":1048962,"a":2,"s":true,"m":[{"a":2,"n":"SwitchToRectTransform","is":true,"t":8,"pi":[{"n":"from","pt":$n[1].RectTransform,"ps":0},{"n":"to","pt":$n[1].RectTransform,"ps":1}],"sn":"SwitchToRectTransform","rt":$n[1].Vector2,"p":[$n[1].RectTransform,$n[1].RectTransform]}]}; }, $n);
     /*DG.Tweening.DOTweenModuleUI+Utils end.*/
 
     /*DG.Tweening.DOTweenModuleUnityVersion start.*/
-    $m("DG.Tweening.DOTweenModuleUnityVersion", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOGradientColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Material,"ps":0},{"n":"gradient","pt":pc.ColorGradient,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOGradientColor","rt":$n[7].Sequence,"p":[$n[1].Material,pc.ColorGradient,$n[0].Single]},{"a":2,"n":"DOGradientColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Material,"ps":0},{"n":"gradient","pt":pc.ColorGradient,"ps":1},{"n":"property","pt":$n[0].String,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3}],"sn":"DOGradientColor$1","rt":$n[7].Sequence,"p":[$n[1].Material,pc.ColorGradient,$n[0].String,$n[0].Single]},{"a":2,"n":"DOOffset","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Material,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"propertyID","pt":$n[0].Int32,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3}],"sn":"DOOffset","rt":$n[6].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Material,$n[1].Vector2,$n[0].Int32,$n[0].Single]},{"a":2,"n":"DOTiling","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Material,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"propertyID","pt":$n[0].Int32,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3}],"sn":"DOTiling","rt":$n[6].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Material,$n[1].Vector2,$n[0].Int32,$n[0].Single]},{"a":2,"n":"WaitForCompletion","is":true,"t":8,"pi":[{"n":"t","pt":$n[7].Tween,"ps":0},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":1}],"sn":"WaitForCompletion","rt":$n[1].CustomYieldInstruction,"p":[$n[7].Tween,$n[0].Boolean]},{"a":2,"n":"WaitForElapsedLoops","is":true,"t":8,"pi":[{"n":"t","pt":$n[7].Tween,"ps":0},{"n":"elapsedLoops","pt":$n[0].Int32,"ps":1},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":2}],"sn":"WaitForElapsedLoops","rt":$n[1].CustomYieldInstruction,"p":[$n[7].Tween,$n[0].Int32,$n[0].Boolean]},{"a":2,"n":"WaitForKill","is":true,"t":8,"pi":[{"n":"t","pt":$n[7].Tween,"ps":0},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":1}],"sn":"WaitForKill","rt":$n[1].CustomYieldInstruction,"p":[$n[7].Tween,$n[0].Boolean]},{"a":2,"n":"WaitForPosition","is":true,"t":8,"pi":[{"n":"t","pt":$n[7].Tween,"ps":0},{"n":"position","pt":$n[0].Single,"ps":1},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":2}],"sn":"WaitForPosition","rt":$n[1].CustomYieldInstruction,"p":[$n[7].Tween,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"WaitForRewind","is":true,"t":8,"pi":[{"n":"t","pt":$n[7].Tween,"ps":0},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":1}],"sn":"WaitForRewind","rt":$n[1].CustomYieldInstruction,"p":[$n[7].Tween,$n[0].Boolean]},{"a":2,"n":"WaitForStart","is":true,"t":8,"pi":[{"n":"t","pt":$n[7].Tween,"ps":0},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":1}],"sn":"WaitForStart","rt":$n[1].CustomYieldInstruction,"p":[$n[7].Tween,$n[0].Boolean]}]}; }, $n);
+    $m("DG.Tweening.DOTweenModuleUnityVersion", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOGradientColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Material,"ps":0},{"n":"gradient","pt":pc.ColorGradient,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOGradientColor","rt":$n[3].Sequence,"p":[$n[1].Material,pc.ColorGradient,$n[0].Single]},{"a":2,"n":"DOGradientColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Material,"ps":0},{"n":"gradient","pt":pc.ColorGradient,"ps":1},{"n":"property","pt":$n[0].String,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3}],"sn":"DOGradientColor$1","rt":$n[3].Sequence,"p":[$n[1].Material,pc.ColorGradient,$n[0].String,$n[0].Single]},{"a":2,"n":"DOOffset","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Material,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"propertyID","pt":$n[0].Int32,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3}],"sn":"DOOffset","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Material,$n[1].Vector2,$n[0].Int32,$n[0].Single]},{"a":2,"n":"DOTiling","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Material,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"propertyID","pt":$n[0].Int32,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3}],"sn":"DOTiling","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Material,$n[1].Vector2,$n[0].Int32,$n[0].Single]},{"a":2,"n":"WaitForCompletion","is":true,"t":8,"pi":[{"n":"t","pt":$n[3].Tween,"ps":0},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":1}],"sn":"WaitForCompletion","rt":$n[1].CustomYieldInstruction,"p":[$n[3].Tween,$n[0].Boolean]},{"a":2,"n":"WaitForElapsedLoops","is":true,"t":8,"pi":[{"n":"t","pt":$n[3].Tween,"ps":0},{"n":"elapsedLoops","pt":$n[0].Int32,"ps":1},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":2}],"sn":"WaitForElapsedLoops","rt":$n[1].CustomYieldInstruction,"p":[$n[3].Tween,$n[0].Int32,$n[0].Boolean]},{"a":2,"n":"WaitForKill","is":true,"t":8,"pi":[{"n":"t","pt":$n[3].Tween,"ps":0},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":1}],"sn":"WaitForKill","rt":$n[1].CustomYieldInstruction,"p":[$n[3].Tween,$n[0].Boolean]},{"a":2,"n":"WaitForPosition","is":true,"t":8,"pi":[{"n":"t","pt":$n[3].Tween,"ps":0},{"n":"position","pt":$n[0].Single,"ps":1},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":2}],"sn":"WaitForPosition","rt":$n[1].CustomYieldInstruction,"p":[$n[3].Tween,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"WaitForRewind","is":true,"t":8,"pi":[{"n":"t","pt":$n[3].Tween,"ps":0},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":1}],"sn":"WaitForRewind","rt":$n[1].CustomYieldInstruction,"p":[$n[3].Tween,$n[0].Boolean]},{"a":2,"n":"WaitForStart","is":true,"t":8,"pi":[{"n":"t","pt":$n[3].Tween,"ps":0},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":1}],"sn":"WaitForStart","rt":$n[1].CustomYieldInstruction,"p":[$n[3].Tween,$n[0].Boolean]}]}; }, $n);
     /*DG.Tweening.DOTweenModuleUnityVersion end.*/
 
     /*DG.Tweening.DOTweenCYInstruction start.*/
-    $m("DG.Tweening.DOTweenCYInstruction", function () { return {"nested":[$n[7].DOTweenCYInstruction.WaitForCompletion,$n[7].DOTweenCYInstruction.WaitForRewind,$n[7].DOTweenCYInstruction.WaitForKill,$n[7].DOTweenCYInstruction.WaitForElapsedLoops,$n[7].DOTweenCYInstruction.WaitForPosition,$n[7].DOTweenCYInstruction.WaitForStart],"att":1048961,"a":2,"s":true}; }, $n);
+    $m("DG.Tweening.DOTweenCYInstruction", function () { return {"nested":[$n[3].DOTweenCYInstruction.WaitForCompletion,$n[3].DOTweenCYInstruction.WaitForRewind,$n[3].DOTweenCYInstruction.WaitForKill,$n[3].DOTweenCYInstruction.WaitForElapsedLoops,$n[3].DOTweenCYInstruction.WaitForPosition,$n[3].DOTweenCYInstruction.WaitForStart],"att":1048961,"a":2,"s":true}; }, $n);
     /*DG.Tweening.DOTweenCYInstruction end.*/
 
     /*DG.Tweening.DOTweenCYInstruction+WaitForCompletion start.*/
-    $m("DG.Tweening.DOTweenCYInstruction.WaitForCompletion", function () { return {"td":$n[7].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[7].Tween],"pi":[{"n":"tween","pt":$n[7].Tween,"ps":0}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"t","t":4,"rt":$n[7].Tween,"sn":"t","ro":true}]}; }, $n);
+    $m("DG.Tweening.DOTweenCYInstruction.WaitForCompletion", function () { return {"td":$n[3].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[3].Tween],"pi":[{"n":"tween","pt":$n[3].Tween,"ps":0}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"t","t":4,"rt":$n[3].Tween,"sn":"t","ro":true}]}; }, $n);
     /*DG.Tweening.DOTweenCYInstruction+WaitForCompletion end.*/
 
     /*DG.Tweening.DOTweenCYInstruction+WaitForRewind start.*/
-    $m("DG.Tweening.DOTweenCYInstruction.WaitForRewind", function () { return {"td":$n[7].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[7].Tween],"pi":[{"n":"tween","pt":$n[7].Tween,"ps":0}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"t","t":4,"rt":$n[7].Tween,"sn":"t","ro":true}]}; }, $n);
+    $m("DG.Tweening.DOTweenCYInstruction.WaitForRewind", function () { return {"td":$n[3].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[3].Tween],"pi":[{"n":"tween","pt":$n[3].Tween,"ps":0}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"t","t":4,"rt":$n[3].Tween,"sn":"t","ro":true}]}; }, $n);
     /*DG.Tweening.DOTweenCYInstruction+WaitForRewind end.*/
 
     /*DG.Tweening.DOTweenCYInstruction+WaitForKill start.*/
-    $m("DG.Tweening.DOTweenCYInstruction.WaitForKill", function () { return {"td":$n[7].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[7].Tween],"pi":[{"n":"tween","pt":$n[7].Tween,"ps":0}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"t","t":4,"rt":$n[7].Tween,"sn":"t","ro":true}]}; }, $n);
+    $m("DG.Tweening.DOTweenCYInstruction.WaitForKill", function () { return {"td":$n[3].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[3].Tween],"pi":[{"n":"tween","pt":$n[3].Tween,"ps":0}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"t","t":4,"rt":$n[3].Tween,"sn":"t","ro":true}]}; }, $n);
     /*DG.Tweening.DOTweenCYInstruction+WaitForKill end.*/
 
     /*DG.Tweening.DOTweenCYInstruction+WaitForElapsedLoops start.*/
-    $m("DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops", function () { return {"td":$n[7].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[7].Tween,$n[0].Int32],"pi":[{"n":"tween","pt":$n[7].Tween,"ps":0},{"n":"elapsedLoops","pt":$n[0].Int32,"ps":1}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"elapsedLoops","t":4,"rt":$n[0].Int32,"sn":"elapsedLoops","ro":true,"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"t","t":4,"rt":$n[7].Tween,"sn":"t","ro":true}]}; }, $n);
+    $m("DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops", function () { return {"td":$n[3].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[3].Tween,$n[0].Int32],"pi":[{"n":"tween","pt":$n[3].Tween,"ps":0},{"n":"elapsedLoops","pt":$n[0].Int32,"ps":1}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"elapsedLoops","t":4,"rt":$n[0].Int32,"sn":"elapsedLoops","ro":true,"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"t","t":4,"rt":$n[3].Tween,"sn":"t","ro":true}]}; }, $n);
     /*DG.Tweening.DOTweenCYInstruction+WaitForElapsedLoops end.*/
 
     /*DG.Tweening.DOTweenCYInstruction+WaitForPosition start.*/
-    $m("DG.Tweening.DOTweenCYInstruction.WaitForPosition", function () { return {"td":$n[7].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[7].Tween,$n[0].Single],"pi":[{"n":"tween","pt":$n[7].Tween,"ps":0},{"n":"position","pt":$n[0].Single,"ps":1}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"position","t":4,"rt":$n[0].Single,"sn":"position","ro":true,"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"t","t":4,"rt":$n[7].Tween,"sn":"t","ro":true}]}; }, $n);
+    $m("DG.Tweening.DOTweenCYInstruction.WaitForPosition", function () { return {"td":$n[3].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[3].Tween,$n[0].Single],"pi":[{"n":"tween","pt":$n[3].Tween,"ps":0},{"n":"position","pt":$n[0].Single,"ps":1}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"position","t":4,"rt":$n[0].Single,"sn":"position","ro":true,"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"t","t":4,"rt":$n[3].Tween,"sn":"t","ro":true}]}; }, $n);
     /*DG.Tweening.DOTweenCYInstruction+WaitForPosition end.*/
 
     /*DG.Tweening.DOTweenCYInstruction+WaitForStart start.*/
-    $m("DG.Tweening.DOTweenCYInstruction.WaitForStart", function () { return {"td":$n[7].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[7].Tween],"pi":[{"n":"tween","pt":$n[7].Tween,"ps":0}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"t","t":4,"rt":$n[7].Tween,"sn":"t","ro":true}]}; }, $n);
+    $m("DG.Tweening.DOTweenCYInstruction.WaitForStart", function () { return {"td":$n[3].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[3].Tween],"pi":[{"n":"tween","pt":$n[3].Tween,"ps":0}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"t","t":4,"rt":$n[3].Tween,"sn":"t","ro":true}]}; }, $n);
     /*DG.Tweening.DOTweenCYInstruction+WaitForStart end.*/
 
     /*DG.Tweening.DOTweenModuleUtils start.*/
-    $m("DG.Tweening.DOTweenModuleUtils", function () { return {"nested":[$n[7].DOTweenModuleUtils.Physics],"att":1048961,"a":2,"s":true,"m":[{"at":[new UnityEngine.Scripting.PreserveAttribute()],"a":2,"n":"Init","is":true,"t":8,"sn":"Init","rt":$n[0].Void},{"at":[new UnityEngine.Scripting.PreserveAttribute()],"a":1,"n":"Preserver","is":true,"t":8,"sn":"Preserver","rt":$n[0].Void},{"a":1,"n":"_initialized","is":true,"t":4,"rt":$n[0].Boolean,"sn":"_initialized","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
+    $m("DG.Tweening.DOTweenModuleUtils", function () { return {"nested":[$n[3].DOTweenModuleUtils.Physics],"att":1048961,"a":2,"s":true,"m":[{"at":[new UnityEngine.Scripting.PreserveAttribute()],"a":2,"n":"Init","is":true,"t":8,"sn":"Init","rt":$n[0].Void},{"at":[new UnityEngine.Scripting.PreserveAttribute()],"a":1,"n":"Preserver","is":true,"t":8,"sn":"Preserver","rt":$n[0].Void},{"a":1,"n":"_initialized","is":true,"t":4,"rt":$n[0].Boolean,"sn":"_initialized","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
     /*DG.Tweening.DOTweenModuleUtils end.*/
 
     /*DG.Tweening.DOTweenModuleUtils+Physics start.*/
-    $m("DG.Tweening.DOTweenModuleUtils.Physics", function () { return {"td":$n[7].DOTweenModuleUtils,"att":1048962,"a":2,"s":true,"m":[{"at":[new UnityEngine.Scripting.PreserveAttribute()],"a":2,"n":"CreateDOTweenPathTween","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].MonoBehaviour,"ps":0},{"n":"tweenRigidbody","pt":$n[0].Boolean,"ps":1},{"n":"isLocal","pt":$n[0].Boolean,"ps":2},{"n":"path","pt":$n[8].Path,"ps":3},{"n":"duration","pt":$n[0].Single,"ps":4},{"n":"pathMode","pt":$n[7].PathMode,"ps":5}],"sn":"CreateDOTweenPathTween","rt":$n[6].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].MonoBehaviour,$n[0].Boolean,$n[0].Boolean,$n[8].Path,$n[0].Single,$n[7].PathMode]},{"at":[new UnityEngine.Scripting.PreserveAttribute()],"a":2,"n":"HasRigidbody","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Component,"ps":0}],"sn":"HasRigidbody","rt":$n[0].Boolean,"p":[$n[1].Component],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"HasRigidbody2D","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Component,"ps":0}],"sn":"HasRigidbody2D","rt":$n[0].Boolean,"p":[$n[1].Component],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"SetOrientationOnPath","is":true,"t":8,"pi":[{"n":"options","pt":$n[10].PathOptions,"ps":0},{"n":"t","pt":$n[7].Tween,"ps":1},{"n":"newRot","pt":$n[1].Quaternion,"ps":2},{"n":"trans","pt":$n[1].Transform,"ps":3}],"sn":"SetOrientationOnPath","rt":$n[0].Void,"p":[$n[10].PathOptions,$n[7].Tween,$n[1].Quaternion,$n[1].Transform]}]}; }, $n);
+    $m("DG.Tweening.DOTweenModuleUtils.Physics", function () { return {"td":$n[3].DOTweenModuleUtils,"att":1048962,"a":2,"s":true,"m":[{"at":[new UnityEngine.Scripting.PreserveAttribute()],"a":2,"n":"CreateDOTweenPathTween","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].MonoBehaviour,"ps":0},{"n":"tweenRigidbody","pt":$n[0].Boolean,"ps":1},{"n":"isLocal","pt":$n[0].Boolean,"ps":2},{"n":"path","pt":$n[8].Path,"ps":3},{"n":"duration","pt":$n[0].Single,"ps":4},{"n":"pathMode","pt":$n[3].PathMode,"ps":5}],"sn":"CreateDOTweenPathTween","rt":$n[7].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].MonoBehaviour,$n[0].Boolean,$n[0].Boolean,$n[8].Path,$n[0].Single,$n[3].PathMode]},{"at":[new UnityEngine.Scripting.PreserveAttribute()],"a":2,"n":"HasRigidbody","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Component,"ps":0}],"sn":"HasRigidbody","rt":$n[0].Boolean,"p":[$n[1].Component],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"HasRigidbody2D","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Component,"ps":0}],"sn":"HasRigidbody2D","rt":$n[0].Boolean,"p":[$n[1].Component],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"SetOrientationOnPath","is":true,"t":8,"pi":[{"n":"options","pt":$n[10].PathOptions,"ps":0},{"n":"t","pt":$n[3].Tween,"ps":1},{"n":"newRot","pt":$n[1].Quaternion,"ps":2},{"n":"trans","pt":$n[1].Transform,"ps":3}],"sn":"SetOrientationOnPath","rt":$n[0].Void,"p":[$n[10].PathOptions,$n[3].Tween,$n[1].Quaternion,$n[1].Transform]}]}; }, $n);
     /*DG.Tweening.DOTweenModuleUtils+Physics end.*/
 
     }});
