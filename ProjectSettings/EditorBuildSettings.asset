@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/00_WaterSort/Scenes/Scene_1.unity
     guid: 21623463af9c1684eb7bf6251a67c171
+  - enabled: 1
+    path: Assets/00_WaterSort/Scenes/Scene_2.unity
+    guid: 8489a1df39edf9f488f0ada1cf796778
+  - enabled: 1
+    path: Assets/00_WaterSort/Scenes/Scene_3.unity
+    guid: 5f6916b94a07e3546a9555f5d942e5fe
   m_configObjects: {}

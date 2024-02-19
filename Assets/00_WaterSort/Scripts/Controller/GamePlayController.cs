@@ -23,13 +23,17 @@ public class GamePlayController : MonoBehaviour
                         if (firstBottle == null)
                         {
                             firstBottle = hitBottleContorller;
+                            GlobalInstance.Instance.gameManagerInstance.audioManager.PlaySoundClick();
+                            firstBottle.stroke.SetActive(true);
                             firstBottle.BottleIsSelected();
+                            GlobalInstance.Instance.gameManagerInstance.FindGuide();
                         }
                         else
                         {
                             if (firstBottle == hitBottleContorller)
                             {
                                 firstBottle.BottleIsUnSelected();
+                                firstBottle.stroke.SetActive(false);
                                 firstBottle = null;
                             }
                             else
@@ -41,6 +45,7 @@ public class GamePlayController : MonoBehaviour
                                 if (secondBottle.FillBottleCheck(firstBottle.topColor))
                                 {
                                     firstBottle.TransferColor();
+                                    GlobalInstance.Instance.gameManagerInstance.HideGuide();
                                     isCanControll = false;
                                     firstBottle = null;
                                     secondBottle = null;
@@ -48,7 +53,12 @@ public class GamePlayController : MonoBehaviour
                                 else
                                 {
                                     firstBottle.BottleIsUnSelected();
-                                    firstBottle = null;
+                                    firstBottle.stroke.SetActive(false);
+                                    firstBottle = secondBottle;
+                                    GlobalInstance.Instance.gameManagerInstance.audioManager.PlaySoundClick();
+                                    firstBottle.stroke.SetActive(true);
+                                    firstBottle.BottleIsSelected();
+                                    GlobalInstance.Instance.gameManagerInstance.FindGuide();
                                     secondBottle = null;
                                 }
                             }

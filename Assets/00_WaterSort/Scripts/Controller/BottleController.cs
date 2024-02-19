@@ -10,6 +10,7 @@ public class BottleController : MonoBehaviour
 {
     public Color[] arrColor;
     public SpriteRenderer bottleMaskSR;
+    public SpriteRenderer top;
     public List<SpriteRenderer> lstWaterSurfaceTop = new List<SpriteRenderer>();
     public List<SpriteRenderer> lstWaterSurface = new List<SpriteRenderer>();
 
@@ -50,7 +51,11 @@ public class BottleController : MonoBehaviour
     public FxBubblesBottle fxBotNuoc;
     public BoxCollider2D boxCollider2D;
     public GameObject done;
+    public GameObject stroke;
+
     [HideInInspector] public bool isCanController;
+
+    //public SurfaceColor surfaceColor;
     private void Start()
     {
         bottleMaskSR.material.SetFloat("_FillAmount", arrFillAmount[numberOfColorInBottle]);
@@ -59,7 +64,12 @@ public class BottleController : MonoBehaviour
         UpdateTopColorValues();
         fxBotNuoc.ActiveFx(numberOfColorInBottle > 0, arrFillAmount[numberOfColorInBottle]);
         isCanController = true;
+
+        // var infoPoint = surfaceColor.CalculateLocalSurfacePoint(Transform, 0f, bottleMaskObject, _ySizeMask);
+        // surfaceColor.transform.position = infoPoint.position;
+        // surfaceColor.transform.localEulerAngles = Vector3.zero;
     }
+
     public void BottleIsSelected()
     {
         StartCoroutine(IEBottleMoveY(0.5f));
@@ -99,7 +109,8 @@ public class BottleController : MonoBehaviour
 
         transform.GetComponent<SpriteRenderer>().sortingOrder += 2;
         bottleMaskSR.sortingOrder += 2;
-
+        top.sortingOrder += 2;
+        stroke.SetActive(false);
         StartCoroutine(IEMoveBottle());
     }
 
@@ -115,7 +126,7 @@ public class BottleController : MonoBehaviour
         {
             endPos = otherBottleControllerRef.leftPoint.position;
         }
-    
+
         float t = 0;
         while (t <= 1f)
         {
@@ -125,7 +136,7 @@ public class BottleController : MonoBehaviour
         }
 
         fxBotNuoc.ActiveFx(false);
-        otherBottleControllerRef.fxBotNuoc.ActiveFx(true);
+        otherBottleControllerRef.fxBotNuoc.ActiveFx(true, GetCurrentFill());
         DisableAnimLine();
         transform.position = endPos;
         StartCoroutine(IERotateBottle());
@@ -146,6 +157,7 @@ public class BottleController : MonoBehaviour
         transform.position = endPos;
         transform.GetComponent<SpriteRenderer>().sortingOrder -= 2;
         bottleMaskSR.sortingOrder -= 2;
+        top.sortingOrder -= 2;
         isCanController = true;
     }
 
@@ -165,25 +177,34 @@ public class BottleController : MonoBehaviour
     }
 
     public float timeRotate = 1.0f;
+    private bool playSoundWaterDropOneTime = true;
 
     IEnumerator IERotateBottle()
     {
         float t = 0;
         float lerpValue;
         float angleValue;
-
         float lastAngleValue = 0;
+        float startAngleValue = directionMultiplier * arrRotationValues[4 - numberOfColorInBottle];
+        //float startSurfacePosY = surfaceColor.transform.localPosition.y;
+        //otherBottleControllerRef.surfaceColor.transform.DOLocalMoveY(startSurfacePosY * numberOfColorToTransfer, timeRotate);
         while (t < timeRotate)
         {
             lerpValue = t / timeRotate;
-            angleValue = Mathf.Lerp(0.0f, directionMultiplier * arrRotationValues[rotationIndex], lerpValue);
+            angleValue = Mathf.Lerp(startAngleValue,
+                directionMultiplier * arrRotationValues[rotationIndex], lerpValue);
             //transform.eulerAngles = new Vector3(0, 0, angleValue);
-
             transform.RotateAround(choosenPoint.position, Vector3.forward, lastAngleValue - angleValue);
 
             bottleMaskSR.material.SetFloat("_SARM", scaleAndRotationMultiplierCur.Evaluate(angleValue));
             if (arrFillAmount[numberOfColorInBottle] > fillAmountCur.Evaluate(angleValue) + 0.005f)
             {
+                if (playSoundWaterDropOneTime)
+                {
+                    GlobalInstance.Instance.gameManagerInstance.audioManager.PlaySoundWaterDrop();
+                    playSoundWaterDropOneTime = false;
+                }
+
                 if (!lineRenderer.enabled)
                 {
                     lineRenderer.startColor = topColor;
@@ -192,19 +213,21 @@ public class BottleController : MonoBehaviour
                     lineRenderer.SetPosition(0, choosenPoint.position);
                     lineRenderer.SetPosition(1, choosenPoint.position - Vector3.up * 5.5f);
                     lineRenderer.enabled = true;
-                    AnimDoneLine();
+                    AnimDoneLine(timeRotate);
                 }
 
                 bottleMaskSR.material.SetFloat("_FillAmount", fillAmountCur.Evaluate(angleValue));
                 otherBottleControllerRef.FillUp(
                     fillAmountCur.Evaluate(lastAngleValue) - fillAmountCur.Evaluate(angleValue));
+                //otherBottleControllerRef.surfaceColor.ActiveFx(true);
             }
 
-            t += Time.deltaTime * rotationSpeedMultipiler.Evaluate(angleValue);
+            t += Time.deltaTime /* rotationSpeedMultipiler.Evaluate(angleValue)*/;
             lastAngleValue = angleValue;
             yield return new WaitForEndOfFrame();
         }
 
+        playSoundWaterDropOneTime = true;
         angleValue = directionMultiplier * arrRotationValues[rotationIndex];
         //transform.eulerAngles = new Vector3(0, 0, angleValue);
         bottleMaskSR.material.SetFloat("_SARM", scaleAndRotationMultiplierCur.Evaluate(angleValue));
@@ -212,6 +235,7 @@ public class BottleController : MonoBehaviour
         numberOfColorInBottle -= numberOfColorToTransfer;
         otherBottleControllerRef.numberOfColorInBottle += numberOfColorToTransfer;
         lineRenderer.enabled = false;
+        GlobalInstance.Instance.gameManagerInstance.audioManager.StopSound();
         StartCoroutine(IERotateBottleBack());
         otherBottleControllerRef.CheckCompleteBottle();
         GlobalInstance.Instance.gameManagerInstance.gamePlayController.isCanControll = true;
@@ -244,6 +268,7 @@ public class BottleController : MonoBehaviour
         bottleMaskSR.material.SetFloat("_SARM", scaleAndRotationMultiplierCur.Evaluate(angleValue));
         StartCoroutine(IEMoveBottleBack());
         fxBotNuoc.ActiveFx(true, GetCurrentFill());
+        //otherBottleControllerRef.surfaceColor.ActiveFx(false);
     }
 
     public void SetColorTop(Color color)
@@ -359,6 +384,8 @@ public class BottleController : MonoBehaviour
             psMain.startColor = arrColor[0];
             fxBotNuoc.ActiveFx(true, GetCurrentFill());
             boxCollider2D.enabled = false;
+            GlobalInstance.Instance.gameManagerInstance.audioManager.PlaySoundCompleteBottle();
+            GlobalInstance.Instance.gameManagerInstance.LogEventCompleteBottle(arrColor[0]);
         }
     }
 
@@ -375,27 +402,27 @@ public class BottleController : MonoBehaviour
 
     private void ChooseRotationAndDirection()
     {
-        if (transform.position.x > otherBottleControllerRef.transform.position.x)
-        {
-            choosenPoint = leftPoint;
-            directionMultiplier = -1.0f;
-        }
-        else
-        {
-            choosenPoint = rightPoint;
-            directionMultiplier = 1.0f;
-        }
-        // choosenPoint = leftPoint;
-        // directionMultiplier = -1.0f;
+        // if (transform.position.x > otherBottleControllerRef.transform.position.x)
+        // {
+        //     choosenPoint = leftPoint;
+        //     directionMultiplier = -1.0f;
+        // }
+        // else
+        // {
+        //     choosenPoint = rightPoint;
+        //     directionMultiplier = 1.0f;
+        // }
+        choosenPoint = rightPoint;
+        directionMultiplier = 1.0f;
     }
 
     private Tweener _tweenAnimLine;
 
-    public void AnimDoneLine()
+    public void AnimDoneLine(float time)
     {
         float startWidth = lineRenderer.startWidth;
-        _tweenAnimLine = DOTween.To(() => startWidth, x => lineRenderer.startWidth = x, 0f, 0.3f)
-            .SetEase(Ease.InExpo);
+        _tweenAnimLine = DOTween.To(() => startWidth, x => lineRenderer.startWidth = x, 0f, time)
+            .SetEase(Ease.Linear);
     }
 
     public void DisableAnimLine()

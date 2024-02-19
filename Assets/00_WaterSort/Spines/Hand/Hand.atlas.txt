@@ -1,0 +1,76 @@
+
+Hand.png
+size: 1054,334
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 670, 2
+  size: 156, 157
+  orig: 159, 159
+  offset: 1, 1
+  index: -1
+3
+  rotate: false
+  xy: 829, 2
+  size: 157, 157
+  orig: 159, 159
+  offset: 1, 1
+  index: -1
+5
+  rotate: false
+  xy: 895, 175
+  size: 157, 157
+  orig: 160, 160
+  offset: 1, 2
+  index: -1
+7
+  rotate: true
+  xy: 740, 161
+  size: 171, 153
+  orig: 173, 159
+  offset: 1, 1
+  index: -1
+Arrow
+  rotate: true
+  xy: 479, 13
+  size: 100, 189
+  orig: 100, 189
+  offset: 0, 0
+  index: -1
+Circle
+  rotate: false
+  xy: 310, 12
+  size: 55, 55
+  orig: 55, 55
+  offset: 0, 0
+  index: -1
+Finger
+  rotate: true
+  xy: 619, 160
+  size: 172, 119
+  orig: 172, 119
+  offset: 0, 0
+  index: -1
+arrow_icon
+  rotate: true
+  xy: 479, 115
+  size: 217, 138
+  orig: 256, 256
+  offset: 21, 57
+  index: -1
+hand
+  rotate: false
+  xy: 2, 4
+  size: 306, 328
+  orig: 308, 330
+  offset: 1, 1
+  index: -1
+index
+  rotate: false
+  xy: 310, 69
+  size: 167, 263
+  orig: 167, 263
+  offset: 0, 0
+  index: -1

@@ -16,6 +16,7 @@ public class FxBubblesBottle : MonoBehaviour {
         ParticleSystem.MainModule psMain = fxBubbles.main;
         float ratioScreen = RatioDefault / CamRatio;
         float realLifeTime = lifeTime * ratioLifeTime * ratioScreen;
-        psMain.startLifetime = realLifeTime;
+        psMain.startLifetime = realLifeTime/2.2f;
+        //Debug.Log(realLifeTime);
     }
 }

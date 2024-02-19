@@ -6,45 +6,55 @@ public class AudioManager : Singleton<AudioManager>
 {
     public AudioSource audioSourceFX;
     public AudioSource audioSourceBG;
-    public AudioClip clipCarMove,clipCarCrash, clipWin, clipLose;
+    public AudioClip clipWaterDrop, clipClick, clickCompleteBottle, clipWin;
 
     public void PlaySoundBG()
     {
         audioSourceBG.Play();
     }
-    public void PlaySoundCarMove()
+
+    public void PlaySoundWaterDrop()
     {
-        PlaySoundFX(clipCarMove);
+        PlaySoundFX(clipWaterDrop);
     }
-    public void PlaySoundCarCrash()
+
+    public void PlaySoundClick()
     {
-        PlaySoundFX(clipCarCrash);
+        PlaySoundFX(clipClick);
     }
-    
+
+    public void PlaySoundCompleteBottle()
+    {
+        PlaySoundFX(clickCompleteBottle);
+    }
 
     public void PlaySoundWin()
     {
         PlaySoundFX(clipWin);
     }
 
-    public void PlaySoundLose()
-    {
-        PlaySoundFX(clipLose);
-    }
+
     void PlaySoundFX(AudioClip audioClip)
     {
-        audioSourceFX.PlayOneShot(audioClip);
+        //audioSourceFX.PlayOneShot(audioClip);
+        audioSourceFX.clip = audioClip;
+        audioSourceFX.Play();
     }
 
-    public void PlaySound()
+    public void OnSound()
     {
         audioSourceBG.volume = 1;
         audioSourceFX.volume = 1;
     }
 
-    public void StopSound()
+    public void MuteSound()
     {
         audioSourceBG.volume = 0;
         audioSourceFX.volume = 0;
+    }
+
+    public void StopSound()
+    {
+        audioSourceFX.clip = null;
     }
 }

@@ -40,11 +40,9 @@ Material:
     m_Floats:
     - _FillAmount: 1
     - _SARM: 4.3
-    - _Size: 4.28
-    - _fillAmount: 1
     m_Colors:
     - _C1: {r: 1, g: 0, b: 0, a: 1}
-    - _C2: {r: 0, g: 0.12941177, b: 1, a: 1}
-    - _C3: {r: 1, g: 0.8745099, b: 0, a: 1}
-    - _C4: {r: 0.03137255, g: 1, b: 0, a: 1}
+    - _C2: {r: 0, g: 0.1299767, b: 1, a: 1}
+    - _C3: {r: 1, g: 0.8746812, b: 0, a: 1}
+    - _C4: {r: 0.03239763, g: 1, b: 0, a: 1}
   m_BuildTextureStacks: []
